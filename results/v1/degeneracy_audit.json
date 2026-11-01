@@ -1,0 +1,3202 @@
+[
+ {
+  "n": 10,
+  "structure": "single",
+  "seed": 1000,
+  "total_shortage_range": [
+   3.2910999999999992,
+   3.2911000161644
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.42377770020664374,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999985851056,
+   0.5417970741773567,
+   0.42377770266774645
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.09574155351738502,
+   0.24281395291118024,
+   6.819585587108134e-08
+  ],
+  "fnad": [
+   0.12513444307377955,
+   0.3432002647931547,
+   0.025061599420957963
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 10,
+  "structure": "single",
+  "seed": 1001,
+  "total_shortage_range": [
+   2.5591999999999997,
+   2.5592000132368993
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.4389633113018933,
+  "worst_relative_shortage_at_payoff_points": [
+   0.7167623566492848,
+   0.5419045914653038,
+   0.4389633113180437
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.10681400786973684,
+   0.2229483534960163,
+   1.2042322777293784e-09
+  ],
+  "fnad": [
+   0.11946878500316084,
+   0.28495097966237914,
+   0.008123511140945356
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 10,
+  "structure": "single",
+  "seed": 1002,
+  "total_shortage_range": [
+   2.8524000000000016,
+   2.8524000144098
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.6295715884559218,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999995342789,
+   0.7813961450081089,
+   0.629571589234906
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.10247027897266581,
+   0.36589598260170436,
+   1.3083607852376015e-09
+  ],
+  "fnad": [
+   0.12775155921974798,
+   0.38086294097716056,
+   0.021044088458923683
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": false
+  }
+ },
+ {
+  "n": 10,
+  "structure": "single",
+  "seed": 1003,
+  "total_shortage_range": [
+   2.960599999999999,
+   2.9606000148423997
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.4807183335497262,
+  "worst_relative_shortage_at_payoff_points": [
+   0.7222737219339538,
+   0.5041608734965685,
+   0.48071833361732924
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.104291127624308,
+   0.32188576644756245,
+   1.3935970274611968e-09
+  ],
+  "fnad": [
+   0.1205915164957245,
+   0.39824759618830213,
+   0.0080478989725758
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 10,
+  "structure": "single",
+  "seed": 1004,
+  "total_shortage_range": [
+   2.9185999999999996,
+   2.9186000146744
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.5409122080251133,
+  "worst_relative_shortage_at_payoff_points": [
+   0.99221485022159,
+   0.6721596466676955,
+   0.5409122082433648
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.11130594171071749,
+   0.24855238674674554,
+   1.292851490095041e-09
+  ],
+  "fnad": [
+   0.12639759595065325,
+   0.2485523883052835,
+   0.01538372718869997
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": false,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": false,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": false
+  }
+ },
+ {
+  "n": 10,
+  "structure": "laminar",
+  "seed": 1000,
+  "total_shortage_range": [
+   3.2910999999999984,
+   3.291100016164399
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.493426974117151,
+  "worst_relative_shortage_at_payoff_points": [
+   0.6626854819228051,
+   0.5054803152263798,
+   0.5074388140201558
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.08868035713770311,
+   0.19381817581407448,
+   0.001531951647375748
+  ],
+  "fnad": [
+   0.11082018030003385,
+   0.27238793926092175,
+   0.006488703506205969
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 10,
+  "structure": "laminar",
+  "seed": 1001,
+  "total_shortage_range": [
+   2.5592000000000006,
+   2.5592000132369
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.4389633103099116,
+  "worst_relative_shortage_at_payoff_points": [
+   0.716762356491694,
+   0.5205067804984903,
+   0.43896331331342386
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.10681400778516094,
+   0.22294835342346894,
+   1.1973081196216199e-09
+  ],
+  "fnad": [
+   0.11946877075974391,
+   0.2849516082784675,
+   0.008123674864213436
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 10,
+  "structure": "laminar",
+  "seed": 1002,
+  "total_shortage_range": [
+   2.8524000000000007,
+   2.8524000144097985
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.9999999952360492,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999995821962,
+   0.9999999954555472,
+   0.9999999999756215
+  ],
+  "worst_relative_shortage_is_one_everywhere": true,
+  "fmin": [
+   0.08305804371544699,
+   0.36680747847726153,
+   0.031296945540157745
+  ],
+  "fnad": [
+   0.08323453221885534,
+   0.36680748089368753,
+   0.03190378916571377
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": false,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": false,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": false
+  }
+ },
+ {
+  "n": 10,
+  "structure": "laminar",
+  "seed": 1003,
+  "total_shortage_range": [
+   2.960599999999999,
+   2.9606000148423997
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.572440679912714,
+  "worst_relative_shortage_at_payoff_points": [
+   0.5724406793288016,
+   0.586328450527206,
+   0.5724406808917414
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.13294163050810212,
+   0.32188576521218853,
+   0.0022540358633500973
+  ],
+  "fnad": [
+   0.1337868556970271,
+   0.3218857667149296,
+   0.0030863867355262827
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": false,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": false,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": false
+  }
+ },
+ {
+  "n": 10,
+  "structure": "laminar",
+  "seed": 1004,
+  "total_shortage_range": [
+   2.9185999999999988,
+   2.9186000146744
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.6738180300307592,
+  "worst_relative_shortage_at_payoff_points": [
+   0.8429372768825879,
+   0.7608865950610316,
+   0.6738180293204439
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.09863716898209879,
+   0.22521928231264532,
+   0.008959627123000751
+  ],
+  "fnad": [
+   0.1070338774162048,
+   0.23637403229521445,
+   0.01858341935748613
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 10,
+  "structure": "general",
+  "seed": 1000,
+  "total_shortage_range": [
+   3.2910999999999984,
+   3.2911000161643997
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.4934269751455824,
+  "worst_relative_shortage_at_payoff_points": [
+   0.7801044387079431,
+   0.6760364612100135,
+   0.5083449396307853
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.07670708462989219,
+   0.17238157470468862,
+   0.0022780171068968553
+  ],
+  "fnad": [
+   0.110505123343213,
+   0.2731217741932264,
+   0.014902194309102687
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 10,
+  "structure": "general",
+  "seed": 1001,
+  "total_shortage_range": [
+   2.559200000000001,
+   2.5592000132368997
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.5563646494981177,
+  "worst_relative_shortage_at_payoff_points": [
+   0.5858189796172285,
+   0.625338246444006,
+   0.5563646496038126
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.1192647011710382,
+   0.22294835247836564,
+   0.0013301794970477085
+  ],
+  "fnad": [
+   0.12073279487739742,
+   0.22294835382128342,
+   0.002641059156994381
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": false,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": false,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": false
+  }
+ },
+ {
+  "n": 10,
+  "structure": "general",
+  "seed": 1002,
+  "total_shortage_range": [
+   3.0767999961750006,
+   3.076800014409799
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.9999999790273656,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999999754022,
+   0.9999999942324372,
+   0.9999999883059608
+  ],
+  "worst_relative_shortage_is_one_everywhere": true,
+  "fmin": [
+   0.14478282856285984,
+   0.3893144455292358,
+   0.06825706696867474
+  ],
+  "fnad": [
+   0.14478282856285984,
+   0.389314445644221,
+   0.06825706696867474
+  ],
+  "varies": {
+   "shortfall": false,
+   "movement": false,
+   "disparity": false
+  },
+  "conflicts": {
+   "shortfall->movement": false,
+   "shortfall->disparity": false,
+   "movement->shortfall": false,
+   "movement->disparity": false,
+   "disparity->shortfall": false,
+   "disparity->movement": false
+  }
+ },
+ {
+  "n": 10,
+  "structure": "general",
+  "seed": 1003,
+  "total_shortage_range": [
+   2.9606000000000003,
+   2.9606000148423997
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.9999999931960831,
+  "worst_relative_shortage_at_payoff_points": [
+   0.999999999970958,
+   0.9999999999853746,
+   0.9999999920099044
+  ],
+  "worst_relative_shortage_is_one_everywhere": true,
+  "fmin": [
+   0.1604726695369067,
+   0.3510859254158468,
+   0.03789472378911835
+  ],
+  "fnad": [
+   0.16047267024813003,
+   0.35108592687925044,
+   0.03789472378911835
+  ],
+  "varies": {
+   "shortfall": false,
+   "movement": false,
+   "disparity": false
+  },
+  "conflicts": {
+   "shortfall->movement": false,
+   "shortfall->disparity": false,
+   "movement->shortfall": false,
+   "movement->disparity": false,
+   "disparity->shortfall": false,
+   "disparity->movement": false
+  }
+ },
+ {
+  "n": 10,
+  "structure": "general",
+  "seed": 1004,
+  "total_shortage_range": [
+   2.9186,
+   2.9186000146744004
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.9999999904429101,
+  "worst_relative_shortage_at_payoff_points": [
+   0.999999988094384,
+   0.9999999960241693,
+   0.9999999881370394
+  ],
+  "worst_relative_shortage_is_one_everywhere": true,
+  "fmin": [
+   0.11531190584032724,
+   0.20592921171752773,
+   0.02670952279315494
+  ],
+  "fnad": [
+   0.11654699307437812,
+   0.2245897064041396,
+   0.028212974451368566
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 10,
+  "structure": "weighted",
+  "seed": 1000,
+  "total_shortage_range": [
+   4.569961032080624,
+   4.569961050886073
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.9999999890204659,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999878135398,
+   0.9999999999983364,
+   0.9999999888975568
+  ],
+  "worst_relative_shortage_is_one_everywhere": true,
+  "fmin": [
+   0.35816620709270897,
+   0.41156155244820275,
+   0.038315060806261896
+  ],
+  "fnad": [
+   0.35816621258924136,
+   0.41156156258872456,
+   0.038315060806261896
+  ],
+  "varies": {
+   "shortfall": false,
+   "movement": false,
+   "disparity": false
+  },
+  "conflicts": {
+   "shortfall->movement": false,
+   "shortfall->disparity": false,
+   "movement->shortfall": false,
+   "movement->disparity": false,
+   "disparity->shortfall": false,
+   "disparity->movement": false
+  }
+ },
+ {
+  "n": 10,
+  "structure": "weighted",
+  "seed": 1001,
+  "total_shortage_range": [
+   2.1703476030744495,
+   2.170347619148229
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.9999999441957603,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999999943782,
+   0.9999999999999565,
+   0.999999999980062
+  ],
+  "worst_relative_shortage_is_one_everywhere": true,
+  "fmin": [
+   0.13344495592483552,
+   0.4165565223472615,
+   0.054014741374067275
+  ],
+  "fnad": [
+   0.13344495628810543,
+   0.4165565223472615,
+   0.0540147414609602
+  ],
+  "varies": {
+   "shortfall": false,
+   "movement": false,
+   "disparity": false
+  },
+  "conflicts": {
+   "shortfall->movement": false,
+   "shortfall->disparity": false,
+   "movement->shortfall": false,
+   "movement->disparity": false,
+   "disparity->shortfall": false,
+   "disparity->movement": false
+  }
+ },
+ {
+  "n": 10,
+  "structure": "weighted",
+  "seed": 1002,
+  "total_shortage_range": [
+   2.7867667577236577,
+   2.786766772139599
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.9999999370010149,
+  "worst_relative_shortage_at_payoff_points": [
+   0.999999999999089,
+   0.9999999999997093,
+   0.9999999999994507
+  ],
+  "worst_relative_shortage_is_one_everywhere": true,
+  "fmin": [
+   0.11719955947154669,
+   0.4142457194905602,
+   0.03628104430939911
+  ],
+  "fnad": [
+   0.11719955983728624,
+   0.4142457194905602,
+   0.036281045322353205
+  ],
+  "varies": {
+   "shortfall": false,
+   "movement": false,
+   "disparity": false
+  },
+  "conflicts": {
+   "shortfall->movement": false,
+   "shortfall->disparity": false,
+   "movement->shortfall": false,
+   "movement->disparity": false,
+   "disparity->shortfall": false,
+   "disparity->movement": false
+  }
+ },
+ {
+  "n": 10,
+  "structure": "weighted",
+  "seed": 1003,
+  "total_shortage_range": [
+   3.9668842096441383,
+   3.966884270528424
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.9999999852995863,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999999997554,
+   1.0,
+   0.9999999999999978
+  ],
+  "worst_relative_shortage_is_one_everywhere": true,
+  "fmin": [
+   0.23696522421363245,
+   0.3288815766834484,
+   0.0871234490710472
+  ],
+  "fnad": [
+   0.2369652244192287,
+   0.32888158028452635,
+   0.0871234490710472
+  ],
+  "varies": {
+   "shortfall": false,
+   "movement": false,
+   "disparity": false
+  },
+  "conflicts": {
+   "shortfall->movement": false,
+   "shortfall->disparity": false,
+   "movement->shortfall": false,
+   "movement->disparity": false,
+   "disparity->shortfall": false,
+   "disparity->movement": false
+  }
+ },
+ {
+  "n": 10,
+  "structure": "weighted",
+  "seed": 1004,
+  "total_shortage_range": [
+   3.5138773217540455,
+   3.5138773435716506
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.9999999221189119,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999999998146,
+   0.9999999999990924,
+   0.9999999999981248
+  ],
+  "worst_relative_shortage_is_one_everywhere": true,
+  "fmin": [
+   0.20695751677299404,
+   0.33985271493889235,
+   0.09863137220626055
+  ],
+  "fnad": [
+   0.2069575171035559,
+   0.33985271541873874,
+   0.09863137220626055
+  ],
+  "varies": {
+   "shortfall": false,
+   "movement": false,
+   "disparity": false
+  },
+  "conflicts": {
+   "shortfall->movement": false,
+   "shortfall->disparity": false,
+   "movement->shortfall": false,
+   "movement->disparity": false,
+   "disparity->shortfall": false,
+   "disparity->movement": false
+  }
+ },
+ {
+  "n": 30,
+  "structure": "single",
+  "seed": 1000,
+  "total_shortage_range": [
+   8.675599999999996,
+   8.675600037702498
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.5567384761327931,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999997544615,
+   0.7032598486495675,
+   0.5567384765909685
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.09995821970167926,
+   0.24448382682187705,
+   1.0839060036718593e-09
+  ],
+  "fnad": [
+   0.1184543830627996,
+   0.2892448182329701,
+   0.016646275186446773
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 30,
+  "structure": "single",
+  "seed": 1001,
+  "total_shortage_range": [
+   8.890199999999993,
+   8.8902000385607
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.4471954085813779,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999996244702,
+   0.7604816267489499,
+   0.44719551249892453
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.10307634655993786,
+   0.2848369128693779,
+   1.073799407850165e-09
+  ],
+  "fnad": [
+   0.12531434341598927,
+   0.31759273558294976,
+   0.019524711242015876
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 30,
+  "structure": "single",
+  "seed": 1002,
+  "total_shortage_range": [
+   7.314999999999998,
+   7.31500003226
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.5076089379294046,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999995644991,
+   0.8457012395065222,
+   0.5076089300866419
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.09888076338372355,
+   0.22186261120642098,
+   1.0584217606881273e-09
+  ],
+  "fnad": [
+   0.1289372256496701,
+   0.2594686053986257,
+   0.02131854766039234
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 30,
+  "structure": "single",
+  "seed": 1003,
+  "total_shortage_range": [
+   7.597800000000008,
+   7.597800033391003
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.5027028228821292,
+  "worst_relative_shortage_at_payoff_points": [
+   0.999999999256179,
+   0.7213094426312843,
+   0.5027028102330932
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.10071543576917213,
+   0.26863874186426967,
+   1.061150610062051e-09
+  ],
+  "fnad": [
+   0.13757577187376627,
+   0.32715730234402035,
+   0.023424113717423357
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 30,
+  "structure": "single",
+  "seed": 1004,
+  "total_shortage_range": [
+   8.494299999999999,
+   8.494300036977094
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.47147075477035066,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999998159573,
+   0.7741055833587029,
+   0.4714707555354696
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.11198352962818899,
+   0.2808509262671132,
+   1.0603892634976674e-09
+  ],
+  "fnad": [
+   0.12578773699510026,
+   0.3262869125412542,
+   0.011565890172361913
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 30,
+  "structure": "laminar",
+  "seed": 1000,
+  "total_shortage_range": [
+   8.675599999999998,
+   8.675600037702498
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.6745108246372642,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999998925424,
+   0.8548650093666738,
+   0.7354934289040104
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.10264003421642512,
+   0.24448382683843176,
+   0.001302928412719669
+  ],
+  "fnad": [
+   0.12838747796395333,
+   0.29294799639178337,
+   0.019704875684472645
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 30,
+  "structure": "laminar",
+  "seed": 1001,
+  "total_shortage_range": [
+   8.890199999999998,
+   8.890200038560701
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.44719540804687935,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999998634422,
+   0.6956020130256585,
+   0.4471954087902921
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.10307634656680234,
+   0.28483691295923613,
+   1.0587767796375028e-09
+  ],
+  "fnad": [
+   0.1253143974958934,
+   0.317592848040986,
+   0.01952474131019242
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 30,
+  "structure": "laminar",
+  "seed": 1002,
+  "total_shortage_range": [
+   7.314999999999998,
+   7.31500003226
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.5521240744649962,
+  "worst_relative_shortage_at_payoff_points": [
+   0.999999998979958,
+   0.7755699331190848,
+   0.56246048301822
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.0988807640259892,
+   0.22186261110027897,
+   0.00034320175439450006
+  ],
+  "fnad": [
+   0.12187659668853518,
+   0.259468236879957,
+   0.021318441314093998
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 30,
+  "structure": "laminar",
+  "seed": 1003,
+  "total_shortage_range": [
+   7.597800000000004,
+   7.597800033391002
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.7117664731281947,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999999693893,
+   0.9182775799147131,
+   0.7326650601531126
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.1013718349126945,
+   0.26863874186158093,
+   0.003011877507138531
+  ],
+  "fnad": [
+   0.12503841412503977,
+   0.32327117483050843,
+   0.022289590773070533
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 30,
+  "structure": "laminar",
+  "seed": 1004,
+  "total_shortage_range": [
+   8.494299999999999,
+   8.494300036977094
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.9999999501181916,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999998565715,
+   0.9999999998694251,
+   0.9999999523096519
+  ],
+  "worst_relative_shortage_is_one_everywhere": true,
+  "fmin": [
+   0.09277529035814874,
+   0.22799768097635945,
+   0.02132361537578133
+  ],
+  "fnad": [
+   0.10690204835158162,
+   0.29531392339521395,
+   0.02581081039709446
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 30,
+  "structure": "general",
+  "seed": 1000,
+  "total_shortage_range": [
+   8.6756,
+   8.6756000377025
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.6753994602107574,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999998327485,
+   0.9212318977061933,
+   0.721883254032563
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.106129602303984,
+   0.2444838268524289,
+   0.001033653070281961
+  ],
+  "fnad": [
+   0.12788928869660338,
+   0.2893563349836634,
+   0.017552280414495868
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 30,
+  "structure": "general",
+  "seed": 1001,
+  "total_shortage_range": [
+   8.890199999999997,
+   8.8902000385607
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.49655343662191387,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999998730532,
+   0.867293232857687,
+   0.5178791393858729
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.11069561144901353,
+   0.28483691299189184,
+   0.0003069197922947534
+  ],
+  "fnad": [
+   0.132223990168327,
+   0.31018811201160346,
+   0.018449408811929364
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 30,
+  "structure": "general",
+  "seed": 1002,
+  "total_shortage_range": [
+   7.314999999999997,
+   7.31500003226
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.5866392547893352,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9935384655822619,
+   0.9018427277915609,
+   0.6086675256671638
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.13234600854672426,
+   0.22186261113259934,
+   0.0007776623427615455
+  ],
+  "fnad": [
+   0.14698451055891554,
+   0.24717007682882985,
+   0.011962661648785566
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 30,
+  "structure": "general",
+  "seed": 1003,
+  "total_shortage_range": [
+   7.597800000000002,
+   7.597800033391001
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.7670417731792789,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999997316704,
+   0.9075757844114103,
+   0.7926594256434739
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.10112341954528323,
+   0.2686387418207364,
+   0.004899152938253086
+  ],
+  "fnad": [
+   0.12060913272973,
+   0.3296842021951598,
+   0.024173845810990646
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 30,
+  "structure": "general",
+  "seed": 1004,
+  "total_shortage_range": [
+   8.494299999999999,
+   8.494300036977094
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.9999999539776101,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999999036248,
+   0.9999999935804098,
+   0.9999999628937447
+  ],
+  "worst_relative_shortage_is_one_everywhere": true,
+  "fmin": [
+   0.09967580677517869,
+   0.24705169100011345,
+   0.009026306948977712
+  ],
+  "fnad": [
+   0.11062409941002539,
+   0.30549565770619513,
+   0.01388080592318318
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 30,
+  "structure": "weighted",
+  "seed": 1000,
+  "total_shortage_range": [
+   5.298103185953135,
+   5.298103228128399
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.9999998106176917,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999999998365,
+   0.9999999999996932,
+   0.9999999999986422
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.13249157364859707,
+   0.3255940067551764,
+   0.060810942633556464
+  ],
+  "fnad": [
+   0.1324915737478259,
+   0.32559400985704173,
+   0.060810942633556464
+  ],
+  "varies": {
+   "shortfall": false,
+   "movement": false,
+   "disparity": false
+  },
+  "conflicts": {
+   "shortfall->movement": false,
+   "shortfall->disparity": false,
+   "movement->shortfall": false,
+   "movement->disparity": false,
+   "disparity->shortfall": false,
+   "disparity->movement": false
+  }
+ },
+ {
+  "n": 30,
+  "structure": "weighted",
+  "seed": 1001,
+  "total_shortage_range": [
+   8.77146070580887,
+   8.771460760744935
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.9999999831027898,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999999998013,
+   0.9999999999999486,
+   0.9999999999998099
+  ],
+  "worst_relative_shortage_is_one_everywhere": true,
+  "fmin": [
+   0.21759921900629992,
+   0.3766242030499894,
+   0.06980927288006948
+  ],
+  "fnad": [
+   0.21759921961392295,
+   0.3766242030499894,
+   0.06980927329441368
+  ],
+  "varies": {
+   "shortfall": false,
+   "movement": false,
+   "disparity": false
+  },
+  "conflicts": {
+   "shortfall->movement": false,
+   "shortfall->disparity": false,
+   "movement->shortfall": false,
+   "movement->disparity": false,
+   "disparity->shortfall": false,
+   "disparity->movement": false
+  }
+ },
+ {
+  "n": 30,
+  "structure": "weighted",
+  "seed": 1002,
+  "total_shortage_range": [
+   5.862571708968238,
+   5.862571759460586
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.9999999845420249,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999999967488,
+   0.9999999999999022,
+   0.9999999999973428
+  ],
+  "worst_relative_shortage_is_one_everywhere": true,
+  "fmin": [
+   0.14424645996301177,
+   0.3202300583382153,
+   0.07601871633243756
+  ],
+  "fnad": [
+   0.14424646010075767,
+   0.3202300583382153,
+   0.07601871635385196
+  ],
+  "varies": {
+   "shortfall": false,
+   "movement": false,
+   "disparity": false
+  },
+  "conflicts": {
+   "shortfall->movement": false,
+   "shortfall->disparity": false,
+   "movement->shortfall": false,
+   "movement->disparity": false,
+   "disparity->shortfall": false,
+   "disparity->movement": false
+  }
+ },
+ {
+  "n": 30,
+  "structure": "weighted",
+  "seed": 1003,
+  "total_shortage_range": [
+   6.691797410875513,
+   6.6917974638835735
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.9999999914087396,
+  "worst_relative_shortage_at_payoff_points": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "worst_relative_shortage_is_one_everywhere": true,
+  "fmin": [
+   0.13046629874888346,
+   0.3813218252961705,
+   0.07116437985903337
+  ],
+  "fnad": [
+   0.13046630274994891,
+   0.3813218282327888,
+   0.07116437985903337
+  ],
+  "varies": {
+   "shortfall": false,
+   "movement": false,
+   "disparity": false
+  },
+  "conflicts": {
+   "shortfall->movement": false,
+   "shortfall->disparity": false,
+   "movement->shortfall": false,
+   "movement->disparity": false,
+   "disparity->shortfall": false,
+   "disparity->movement": false
+  }
+ },
+ {
+  "n": 30,
+  "structure": "weighted",
+  "seed": 1004,
+  "total_shortage_range": [
+   8.592303116720023,
+   8.59230316692173
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.9999999514512677,
+  "worst_relative_shortage_at_payoff_points": [
+   0.999999999999987,
+   0.9999999999999939,
+   0.9999999999994282
+  ],
+  "worst_relative_shortage_is_one_everywhere": true,
+  "fmin": [
+   0.23294180675539106,
+   0.36712077744940075,
+   0.06956967312129812
+  ],
+  "fnad": [
+   0.2329418619579723,
+   0.36712089826562,
+   0.06956973122239284
+  ],
+  "varies": {
+   "shortfall": false,
+   "movement": false,
+   "disparity": false
+  },
+  "conflicts": {
+   "shortfall->movement": false,
+   "shortfall->disparity": false,
+   "movement->shortfall": false,
+   "movement->disparity": false,
+   "disparity->shortfall": false,
+   "disparity->movement": false
+  }
+ },
+ {
+  "n": 100,
+  "structure": "single",
+  "seed": 1000,
+  "total_shortage_range": [
+   29.367999999999988,
+   29.3680001204722
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.49483646737289755,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999984846436,
+   0.6570209347414391,
+   0.4948364674977238
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.09967134621906505,
+   0.2893739956508345,
+   1.0435224906666853e-09
+  ],
+  "fnad": [
+   0.12582594639143474,
+   0.3141613961521436,
+   0.019777757545204677
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 100,
+  "structure": "single",
+  "seed": 1001,
+  "total_shortage_range": [
+   28.973400000000026,
+   28.973400118893494
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.5026683232921202,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999977101575,
+   0.7157383115626977,
+   0.5026683321392114
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.10466249965730962,
+   0.27371595477588434,
+   1.0395989139440808e-09
+  ],
+  "fnad": [
+   0.11908398533806029,
+   0.28552736763701175,
+   0.011521826775078058
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 100,
+  "structure": "single",
+  "seed": 1002,
+  "total_shortage_range": [
+   26.601800000000004,
+   26.6018001094074
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.5159587273961179,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999995661079,
+   0.8536583154137094,
+   0.5159587359525957
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.1021577201652653,
+   0.29408950911385756,
+   1.0295946519097805e-09
+  ],
+  "fnad": [
+   0.12608426514106263,
+   0.30806430591854644,
+   0.01617838302991732
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 100,
+  "structure": "single",
+  "seed": 1003,
+  "total_shortage_range": [
+   26.581200000000006,
+   26.581200109324794
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.47766505146740645,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999999321368,
+   0.6476615492671275,
+   0.47766504849198643
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.10251660764689381,
+   0.22935476976669403,
+   1.0321170229698252e-09
+  ],
+  "fnad": [
+   0.12470890645129104,
+   0.2648405363131012,
+   0.019262128934524128
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 100,
+  "structure": "single",
+  "seed": 1004,
+  "total_shortage_range": [
+   28.168000000000056,
+   28.16800011567219
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.5047223665642502,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999976271566,
+   0.7587558698456088,
+   0.5047223827160215
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.1032406637587465,
+   0.33394129186397675,
+   1.039536731671489e-09
+  ],
+  "fnad": [
+   0.12184435759715595,
+   0.3493017370889669,
+   0.014013380623459635
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 100,
+  "structure": "laminar",
+  "seed": 1000,
+  "total_shortage_range": [
+   29.368,
+   29.368000120472182
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.9999999481665861,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999997245923,
+   0.999999998574667,
+   0.9999999998808795
+  ],
+  "worst_relative_shortage_is_one_everywhere": true,
+  "fmin": [
+   0.09940616815339917,
+   0.28856699830937466,
+   0.0033935003505210734
+  ],
+  "fnad": [
+   0.12085857622234486,
+   0.3136870901175475,
+   0.020322604217078703
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 100,
+  "structure": "laminar",
+  "seed": 1001,
+  "total_shortage_range": [
+   28.97340000000001,
+   28.973400118893487
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.6307519681614773,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999963032441,
+   0.7684582077846,
+   0.7123580085704365
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.11105160815750859,
+   0.27371595501222096,
+   0.002490466351384675
+  ],
+  "fnad": [
+   0.12600179057309085,
+   0.2808483305779348,
+   0.013118676195414292
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 100,
+  "structure": "laminar",
+  "seed": 1002,
+  "total_shortage_range": [
+   26.601799999999994,
+   26.6018001094074
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.9999999878182216,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999999632695,
+   0.9999999982161564,
+   0.9999999999252085
+  ],
+  "worst_relative_shortage_is_one_everywhere": true,
+  "fmin": [
+   0.1051917630238723,
+   0.2888473923996341,
+   0.007009975355781199
+  ],
+  "fnad": [
+   0.12105676646354717,
+   0.3065603207436957,
+   0.019882119647126602
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 100,
+  "structure": "laminar",
+  "seed": 1003,
+  "total_shortage_range": [
+   26.581199999999992,
+   26.58120010932479
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.6880730442056892,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999990672093,
+   0.7515031197253772,
+   0.7139606314118674
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.10501367595741753,
+   0.2293547710426696,
+   0.0009673528337392671
+  ],
+  "fnad": [
+   0.12350084003265663,
+   0.26789090195561865,
+   0.01899903423715389
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 100,
+  "structure": "laminar",
+  "seed": 1004,
+  "total_shortage_range": [
+   28.168000000000013,
+   28.168000115672196
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.8879924752639125,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999999790004,
+   0.9379365669768575,
+   0.972002566143628
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.09765454295702573,
+   0.3057373525569831,
+   0.005495132470469978
+  ],
+  "fnad": [
+   0.11395393472997162,
+   0.3266432068666976,
+   0.019362051134847857
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 100,
+  "structure": "general",
+  "seed": 1000,
+  "total_shortage_range": [
+   29.367999999999988,
+   29.3680001204722
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.4948364666903306,
+  "worst_relative_shortage_at_payoff_points": [
+   0.999999999057612,
+   0.7469778203942774,
+   0.49483646817167926
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.09980291745146504,
+   0.28937399809891645,
+   1.025119189423105e-09
+  ],
+  "fnad": [
+   0.12582607453241293,
+   0.3139050107202921,
+   0.019743521863353344
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 100,
+  "structure": "general",
+  "seed": 1001,
+  "total_shortage_range": [
+   28.97340000000001,
+   28.973400118893494
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.534201269243616,
+  "worst_relative_shortage_at_payoff_points": [
+   0.985462102594567,
+   0.7292353282927838,
+   0.5834477262271788
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.10508735295179529,
+   0.2737159548350122,
+   0.00019919761723452017
+  ],
+  "fnad": [
+   0.1181203974225143,
+   0.2842657873532939,
+   0.011442816807097522
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 100,
+  "structure": "general",
+  "seed": 1002,
+  "total_shortage_range": [
+   26.60180000000002,
+   26.6018001094074
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.6970185667493123,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999996554324,
+   0.9405817876648287,
+   0.8218553010914743
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.1029827234131068,
+   0.2940895090139708,
+   0.0024361739478613383
+  ],
+  "fnad": [
+   0.12268180027755783,
+   0.3075549711279163,
+   0.016887788711532573
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 100,
+  "structure": "general",
+  "seed": 1003,
+  "total_shortage_range": [
+   26.581200000000006,
+   26.581200109324797
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.5823793183758922,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999999391673,
+   0.8094794083457444,
+   0.6564298463212931
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.10466708813317446,
+   0.2293547697546078,
+   0.0008494002010544394
+  ],
+  "fnad": [
+   0.12893662334139838,
+   0.26751929933242835,
+   0.02013891088839047
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 100,
+  "structure": "general",
+  "seed": 1004,
+  "total_shortage_range": [
+   28.595499999999994,
+   28.595500115672195
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.6244125969336035,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999985955065,
+   0.8611487268689201,
+   0.6806879263307081
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.11034730293394503,
+   0.33773548432147527,
+   0.0027103210478989143
+  ],
+  "fnad": [
+   0.12830157904531672,
+   0.3541705610528519,
+   0.016361140885468976
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 100,
+  "structure": "weighted",
+  "seed": 1000,
+  "total_shortage_range": [
+   32.925886392077814,
+   32.925886566960976
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.9999999816779993,
+  "worst_relative_shortage_at_payoff_points": [
+   0.999999999999998,
+   0.9999999999999946,
+   0.999999999999901
+  ],
+  "worst_relative_shortage_is_one_everywhere": true,
+  "fmin": [
+   0.28683832404340315,
+   0.39567722873227396,
+   0.07648297813529475
+  ],
+  "fnad": [
+   0.28683833223662797,
+   0.39567723077505623,
+   0.07648297813529475
+  ],
+  "varies": {
+   "shortfall": false,
+   "movement": false,
+   "disparity": false
+  },
+  "conflicts": {
+   "shortfall->movement": false,
+   "shortfall->disparity": false,
+   "movement->shortfall": false,
+   "movement->disparity": false,
+   "disparity->shortfall": false,
+   "disparity->movement": false
+  }
+ },
+ {
+  "n": 100,
+  "structure": "weighted",
+  "seed": 1001,
+  "total_shortage_range": [
+   25.780584066202184,
+   25.780584249358256
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.9999999795803776,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999999999942,
+   0.9999999999999976,
+   0.9999999999999872
+  ],
+  "worst_relative_shortage_is_one_everywhere": true,
+  "fmin": [
+   0.20028102313580134,
+   0.35873774321245605,
+   0.0784803393594075
+  ],
+  "fnad": [
+   0.20028400126524182,
+   0.3587390452947942,
+   0.07848228214719001
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": false,
+   "shortfall->disparity": true,
+   "movement->shortfall": false,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 100,
+  "structure": "weighted",
+  "seed": 1002,
+  "total_shortage_range": [
+   18.252963682638974,
+   18.252963810130517
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.999999951341875,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999999999446,
+   0.9999999999999997,
+   0.9999999999996094
+  ],
+  "worst_relative_shortage_is_one_everywhere": true,
+  "fmin": [
+   0.12386348438622928,
+   0.3406726768726772,
+   0.07832955250419196
+  ],
+  "fnad": [
+   0.12386366166664972,
+   0.34067579339514187,
+   0.07833044539406323
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": false,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": false,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 100,
+  "structure": "weighted",
+  "seed": 1003,
+  "total_shortage_range": [
+   24.579984417198,
+   24.57998459343539
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.9999999830559956,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999999999954,
+   0.9999999991674441,
+   0.9999999999999767
+  ],
+  "worst_relative_shortage_is_one_everywhere": true,
+  "fmin": [
+   0.20679535092459875,
+   0.3818078082667371,
+   0.08020254525441083
+  ],
+  "fnad": [
+   0.206795353564688,
+   0.3818078082667371,
+   0.08020254533322173
+  ],
+  "varies": {
+   "shortfall": false,
+   "movement": false,
+   "disparity": false
+  },
+  "conflicts": {
+   "shortfall->movement": false,
+   "shortfall->disparity": false,
+   "movement->shortfall": false,
+   "movement->disparity": false,
+   "disparity->shortfall": false,
+   "disparity->movement": false
+  }
+ },
+ {
+  "n": 100,
+  "structure": "weighted",
+  "seed": 1004,
+  "total_shortage_range": [
+   25.98782537554641,
+   25.987825515470764
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.9999999718267986,
+  "worst_relative_shortage_at_payoff_points": [
+   1.0,
+   0.9999999999999994,
+   0.9999999999999895
+  ],
+  "worst_relative_shortage_is_one_everywhere": true,
+  "fmin": [
+   0.19927709697585705,
+   0.414492121469725,
+   0.08001379823495382
+  ],
+  "fnad": [
+   0.1992770991401413,
+   0.414492121469725,
+   0.08001379880432467
+  ],
+  "varies": {
+   "shortfall": false,
+   "movement": false,
+   "disparity": false
+  },
+  "conflicts": {
+   "shortfall->movement": false,
+   "shortfall->disparity": false,
+   "movement->shortfall": false,
+   "movement->disparity": false,
+   "disparity->shortfall": false,
+   "disparity->movement": false
+  }
+ },
+ {
+  "n": 300,
+  "structure": "single",
+  "seed": 1000,
+  "total_shortage_range": [
+   85.44980000000015,
+   85.44980034479923
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.5143206596710541,
+  "worst_relative_shortage_at_payoff_points": [
+   0.999999999476535,
+   0.7924797353335056,
+   0.5143206593711873
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.10215191172392385,
+   0.2944491112006786,
+   1.0000166415462768e-09
+  ],
+  "fnad": [
+   0.124378496160424,
+   0.32007554684755685,
+   0.01705505860543495
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 300,
+  "structure": "single",
+  "seed": 1001,
+  "total_shortage_range": [
+   85.37799999999999,
+   85.37800034451192
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.4863781882631493,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999970086837,
+   0.7328499739559984,
+   0.48637818834679686
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.10061365206175785,
+   0.27124259211150487,
+   1.0000014599454774e-09
+  ],
+  "fnad": [
+   0.12725704583379271,
+   0.29856683131101175,
+   0.020623087553070216
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 300,
+  "structure": "single",
+  "seed": 1002,
+  "total_shortage_range": [
+   81.03620000000011,
+   81.03620032714498
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.4911543850658289,
+  "worst_relative_shortage_at_payoff_points": [
+   0.999999999795108,
+   0.7443208116576664,
+   0.4911543851846073
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.09927177093961734,
+   0.24980610557734623,
+   1.0000015086317233e-09
+  ],
+  "fnad": [
+   0.12372321873567842,
+   0.2902178838749684,
+   0.01963290398681727
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 300,
+  "structure": "single",
+  "seed": 1003,
+  "total_shortage_range": [
+   81.94149999999998,
+   81.94150033076586
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.485329909287205,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999997954389,
+   0.7515591973556909,
+   0.48532991045297746
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.1022711075166301,
+   0.26576010528587085,
+   1.0001241161442791e-09
+  ],
+  "fnad": [
+   0.1232181767344946,
+   0.31033067260285896,
+   0.019093469096538987
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 300,
+  "structure": "single",
+  "seed": 1004,
+  "total_shortage_range": [
+   86.32260000000004,
+   86.32260034829041
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.5042702792971417,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999976929146,
+   0.7329717711603678,
+   0.5042703293446211
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.09813073555530805,
+   0.25548958112185133,
+   1.0000404712034847e-09
+  ],
+  "fnad": [
+   0.12487824595611506,
+   0.2913809321301912,
+   0.02076367948576395
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 300,
+  "structure": "laminar",
+  "seed": 1000,
+  "total_shortage_range": [
+   85.44980000000012,
+   85.44980034479933
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.6042505793180919,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999987523641,
+   0.9336886983078088,
+   0.6193591319716336
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.10371655576888075,
+   0.2944491111344651,
+   5.83027622956281e-05
+  ],
+  "fnad": [
+   0.1250350273570276,
+   0.31580201493880233,
+   0.01677738000145923
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 300,
+  "structure": "laminar",
+  "seed": 1001,
+  "total_shortage_range": [
+   85.37800000000014,
+   85.37800034451207
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.999999202014234,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999999800724,
+   0.9999999970289402,
+   0.9999999986203447
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.10427634470057844,
+   0.26944880370811325,
+   0.003867043757200241
+  ],
+  "fnad": [
+   0.12421029849622599,
+   0.301147168880648,
+   0.0214612548990481
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 300,
+  "structure": "laminar",
+  "seed": 1002,
+  "total_shortage_range": [
+   81.03619999999998,
+   81.03620032714502
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.9999999235861043,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999999965401,
+   0.9999999952884724,
+   0.9999999994540187
+  ],
+  "worst_relative_shortage_is_one_everywhere": true,
+  "fmin": [
+   0.10306275511994117,
+   0.2491101222237385,
+   0.0036553836257212304
+  ],
+  "fnad": [
+   0.12209921942619771,
+   0.29058153569294476,
+   0.019178352513245598
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 300,
+  "structure": "laminar",
+  "seed": 1003,
+  "total_shortage_range": [
+   81.94150000000008,
+   81.94150033076595
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.9999998289772037,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999996349584,
+   0.9999999983093307,
+   0.999999865104157
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.1003903630630709,
+   0.25618131748802336,
+   0.0017794214783377748
+  ],
+  "fnad": [
+   0.11903963332371902,
+   0.3053077515727386,
+   0.021302481147354353
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 300,
+  "structure": "laminar",
+  "seed": 1004,
+  "total_shortage_range": [
+   86.32259999999991,
+   86.3226003482904
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.6845280696547122,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999993386912,
+   0.8046305045007947,
+   0.7359008391450002
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.1039412241233725,
+   0.2554895824859238,
+   0.0008807646374942693
+  ],
+  "fnad": [
+   0.13214434723721752,
+   0.28730558939694056,
+   0.020134903520762398
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 300,
+  "structure": "general",
+  "seed": 1000,
+  "total_shortage_range": [
+   85.44980000000021,
+   85.4498003447993
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.514320657802768,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999999744854,
+   0.8272689852722861,
+   0.5143206601238184
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.10215191154876348,
+   0.2944491111710381,
+   1.000158351445454e-09
+  ],
+  "fnad": [
+   0.12437849557451856,
+   0.32007683121478836,
+   0.0170556974894114
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 300,
+  "structure": "general",
+  "seed": 1001,
+  "total_shortage_range": [
+   85.37800000000001,
+   85.37800034451209
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.5297066317500416,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999988962642,
+   0.8701315450556909,
+   0.5996575564441603
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.10215572170510627,
+   0.2712425920709503,
+   0.00017258068135787307
+  ],
+  "fnad": [
+   0.1302061377045453,
+   0.2993233355605329,
+   0.020241647496709172
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 300,
+  "structure": "general",
+  "seed": 1002,
+  "total_shortage_range": [
+   81.03620000000008,
+   81.03620032714497
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.6487943444078862,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999996635417,
+   0.791127210974855,
+   0.7828414600735669
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.10259999546782589,
+   0.24980610545299597,
+   0.0027767562260243837
+  ],
+  "fnad": [
+   0.12655160367152354,
+   0.2922634967577194,
+   0.02091851234710262
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 300,
+  "structure": "general",
+  "seed": 1003,
+  "total_shortage_range": [
+   81.94150000000005,
+   81.9415003307659
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.6173516185786303,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999996124855,
+   0.865373010086053,
+   0.752196910063547
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.10614955118981712,
+   0.2657601052836279,
+   0.002412076394505125
+  ],
+  "fnad": [
+   0.13104024112057822,
+   0.3161334740574555,
+   0.020861467832902297
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 300,
+  "structure": "general",
+  "seed": 1004,
+  "total_shortage_range": [
+   86.3226,
+   86.32260034829041
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.5042702778814354,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999993039714,
+   0.7801465070072565,
+   0.5042702953222447
+  ],
+  "worst_relative_shortage_is_one_everywhere": false,
+  "fmin": [
+   0.09813073531751518,
+   0.25548958233893726,
+   1.0001926268487882e-09
+  ],
+  "fnad": [
+   0.12487824533920615,
+   0.29138216673727085,
+   0.020764349984022688
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": true,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": true,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 300,
+  "structure": "weighted",
+  "seed": 1000,
+  "total_shortage_range": [
+   96.22325499150656,
+   96.22325563817101
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.9999999879108916,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999999999996,
+   1.0,
+   0.9999999999999923
+  ],
+  "worst_relative_shortage_is_one_everywhere": true,
+  "fmin": [
+   0.2711656512869566,
+   0.4418519371229887,
+   0.0804167092276062
+  ],
+  "fnad": [
+   0.27116565605750026,
+   0.4418519371229887,
+   0.08041671080261639
+  ],
+  "varies": {
+   "shortfall": false,
+   "movement": false,
+   "disparity": false
+  },
+  "conflicts": {
+   "shortfall->movement": false,
+   "shortfall->disparity": false,
+   "movement->shortfall": false,
+   "movement->disparity": false,
+   "disparity->shortfall": false,
+   "disparity->movement": false
+  }
+ },
+ {
+  "n": 300,
+  "structure": "weighted",
+  "seed": 1001,
+  "total_shortage_range": [
+   92.86279908132894,
+   92.86279955149305
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.9999999806190171,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999999999146,
+   0.9999999999999983,
+   0.9999999999998705
+  ],
+  "worst_relative_shortage_is_one_everywhere": true,
+  "fmin": [
+   0.2983487982435104,
+   0.41303105156032477,
+   0.08135391444892512
+  ],
+  "fnad": [
+   0.29834914953459335,
+   0.41303144565371874,
+   0.08135413980505181
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": false,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": false,
+   "disparity->movement": true
+  }
+ },
+ {
+  "n": 300,
+  "structure": "weighted",
+  "seed": 1002,
+  "total_shortage_range": [
+   79.74876952549316,
+   79.74876994877775
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.9999999830841969,
+  "worst_relative_shortage_at_payoff_points": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "worst_relative_shortage_is_one_everywhere": true,
+  "fmin": [
+   0.235981960594772,
+   0.3851801645092737,
+   0.08095911286278518
+  ],
+  "fnad": [
+   0.23598197450839203,
+   0.3851801645092737,
+   0.0809591215853424
+  ],
+  "varies": {
+   "shortfall": false,
+   "movement": false,
+   "disparity": false
+  },
+  "conflicts": {
+   "shortfall->movement": false,
+   "shortfall->disparity": false,
+   "movement->shortfall": false,
+   "movement->disparity": false,
+   "disparity->shortfall": false,
+   "disparity->movement": false
+  }
+ },
+ {
+  "n": 300,
+  "structure": "weighted",
+  "seed": 1003,
+  "total_shortage_range": [
+   76.09153039315541,
+   76.09153084643131
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.9999999734779995,
+  "worst_relative_shortage_at_payoff_points": [
+   0.999999999999708,
+   0.999999999999963,
+   0.9999999999999977
+  ],
+  "worst_relative_shortage_is_one_everywhere": true,
+  "fmin": [
+   0.23090544418094155,
+   0.40545712891682695,
+   0.08083508772328021
+  ],
+  "fnad": [
+   0.2309054523933369,
+   0.40545712891682695,
+   0.08083508824278192
+  ],
+  "varies": {
+   "shortfall": false,
+   "movement": false,
+   "disparity": false
+  },
+  "conflicts": {
+   "shortfall->movement": false,
+   "shortfall->disparity": false,
+   "movement->shortfall": false,
+   "movement->disparity": false,
+   "disparity->shortfall": false,
+   "disparity->movement": false
+  }
+ },
+ {
+  "n": 300,
+  "structure": "weighted",
+  "seed": 1004,
+  "total_shortage_range": [
+   69.18944577606815,
+   69.18944620047847
+  ],
+  "total_shortage_constant": true,
+  "worst_relative_shortage_min": 0.9999999606369774,
+  "worst_relative_shortage_at_payoff_points": [
+   0.9999999999999961,
+   0.9999999998119153,
+   0.9999999999999936
+  ],
+  "worst_relative_shortage_is_one_everywhere": true,
+  "fmin": [
+   0.16775830399340055,
+   0.350162379979958,
+   0.08072798643688232
+  ],
+  "fnad": [
+   0.16776194256215882,
+   0.350162905968424,
+   0.08072950895201764
+  ],
+  "varies": {
+   "shortfall": true,
+   "movement": true,
+   "disparity": true
+  },
+  "conflicts": {
+   "shortfall->movement": true,
+   "shortfall->disparity": false,
+   "movement->shortfall": true,
+   "movement->disparity": true,
+   "disparity->shortfall": false,
+   "disparity->movement": true
+  }
+ }
+]

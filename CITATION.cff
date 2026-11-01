@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it as below."
+title: "Certified multiobjective allocation with multiple reference profiles: reproducibility package"
+type: software
+version: 1.2.0
+date-released: '2026-11-01'
+authors:
+  - family-names: Bezoui
+    given-names: Madani
+    affiliation: "CESI LINEACT (UR 7527), Campus de Nancy, France"
+license:
+  - MIT
+  - CC-BY-4.0
+abstract: "Code, instance manifests and results for the exact optimization of a multiple-reference-profile (RMP) preference model over priority-optimal resource allocations: lexicographic coalition search, Pareto refinement, optimality certificates with an independent exact-arithmetic verifier, generic mixed-integer, epsilon-constraint and evolutionary comparators, and a demand-trace study of repeated decisions."
+keywords:
+  - resource allocation
+  - multiple criteria decision aiding
+  - reference profiles
+  - convex optimization
+  - optimality certificates

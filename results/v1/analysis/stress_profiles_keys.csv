@@ -1,0 +1,4 @@
+method,pairs,claimed_lcs_better,claimed_tie,claimed_lcs_worse,claimed_missing,evaluated_lcs_better,evaluated_tie,evaluated_lcs_worse,evaluated_missing
+enum,225,6,214,5,0,38,187,0,0
+scip,225,65,134,26,0,59,159,3,4
+eps,225,0,0,0,225,81,140,4,0

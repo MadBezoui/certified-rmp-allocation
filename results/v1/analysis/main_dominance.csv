@@ -1,0 +1,7 @@
+method,pairs,lcs_dominates,comparator_dominates
+enum,1320,0,0
+scip,1280,143,0
+gurobi,360,9,0
+eps,1440,11,0
+nsga,240,59,0
+rmp_ga,240,31,0

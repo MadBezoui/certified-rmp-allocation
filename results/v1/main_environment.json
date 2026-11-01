@@ -1,0 +1,17 @@
+{
+  "python": "3.13.17",
+  "platform": "Linux-6.18.44-fc-v185-x86_64-with-glibc2.39",
+  "processor": "x86_64",
+  "numpy": "2.5.4",
+  "workers": 3,
+  "time_limit": 60.0,
+  "code_sha": "db89d903964c43fe",
+  "manifest_sha": "ab8340e49462ea46",
+  "scipy": "1.18.1",
+  "cvxpy": "1.9.3",
+  "clarabel": "0.11.1",
+  "highspy": null,
+  "pyscipopt": "6.3.0",
+  "pymoo": "0.6.2",
+  "memory_limit_bytes": 6442450944
+}

@@ -1,0 +1,32 @@
+{
+  "clarabel": "0.11.1",
+  "code_sha256": {
+    "certrmp/baselines.py": "62438e5a0f16ee40900ab190b42a49eb08db138235df85d506ed8f6b4972ce85",
+    "certrmp/certify.py": "23ac9a2a9e3546442b7bfa34b9384eb5da8cdd49f64171cdb7e30fa1ff919edc",
+    "certrmp/dynamic.py": "9e04122f604e27f72b39841aa8c1621dec1662ee5dee5b940e24e3dc56690dc7",
+    "certrmp/generator.py": "e397a2e0d4b84c9366ac438ecf3a9300bd484f1412a996edc71e1254cdaabc21",
+    "certrmp/instance.py": "1567595f8689fbf9c60d2b543d8575ec2dd99e3c4daade6982eaacb26c630e4e",
+    "certrmp/model.py": "a403bc4d5d84c80ccfa1c95b9e130b137f7712bdec30f5d67355b072116b197a",
+    "certrmp/objectives.py": "bcfb14e57bf0130a5c3f0ac0cb1d2b58300de59908b5c84eb197024cb68f4c80",
+    "certrmp/oracle.py": "dbdfb8bace1b0f789937a4e3319a9ce41dc6f666f8fe32316e5541ce70003a8a",
+    "certrmp/pipeline.py": "89f4105175f982f4b3f9fbbc1c9d1619e9eb17437bcff3bba04417d0bc22cc9b",
+    "certrmp/profiles.py": "5974809ae5055824acc00f1833563b652694401a6ffadcfe6775662822a56bfe",
+    "certrmp/search.py": "35361dcdf683c23d2bdd45ec90527be3729b3d860b990381be000a818320d4cc",
+    "certrmp/verify.py": "ff2b4526090315ab233903aa8a8ce4568130dc1d132d74ce5f3c78a72ca27c6d",
+    "experiments/manifest.py": "34d864f140b387f8c9d464c33e909816a09965042477e2c7f0a76ab2af2dc467",
+    "rmp/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "rmp/core.py": "f0bb1db0592b881e453f4c65b84fe894203a1be8fe4df5fa91fa1ffd29c7c864",
+    "scripts/replay_certificates.py": "5c3163d70af94a568fbc79990f2e79c4fd84ba74cd680cc5ee0cca3e575c044e"
+  },
+  "cvxpy": "1.9.3",
+  "historical_sha256": "85e9b70a0056e20697b403bb63f47d5e6fe4b89469975769b1ed262dc5d9d203",
+  "manifest_sha256": "a411f9bb356cee195ced2b18fcf697275b3d107f217ab8aa98a7f875be4dfe4e",
+  "numpy": "2.5.4",
+  "pairs": 100,
+  "platform": "macOS-27.2-arm64-arm-64bit-Mach-O",
+  "python": "3.13.15 (main, Sep  1 2026, 14:05:45) [Clang 22.1.3 ]",
+  "schema": 1,
+  "scipy": "1.18.1",
+  "time_limit_s": 60,
+  "workers": 1
+}

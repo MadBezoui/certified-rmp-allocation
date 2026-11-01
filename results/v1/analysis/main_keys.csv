@@ -1,0 +1,7 @@
+method,pairs,claimed_lcs_better,claimed_tie,claimed_lcs_worse,claimed_missing,evaluated_lcs_better,evaluated_tie,evaluated_lcs_worse,evaluated_missing
+enum,1440,0,1320,0,120,0,1320,0,120
+scip,1440,779,661,0,0,407,873,0,160
+gurobi,360,0,360,0,0,0,360,0,0
+eps,1440,0,0,0,1440,987,453,0,0
+nsga,240,0,0,0,240,211,29,0,0
+rmp_ga,240,0,0,0,240,186,54,0,0

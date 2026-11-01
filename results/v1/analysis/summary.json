@@ -1,0 +1,405 @@
+{
+ "status": {
+  "enum": {
+   "OPTIMAL_NUMERICAL": 1320,
+   "UNRESOLVED": 120
+  },
+  "eps": {
+   "SAMPLE": 1440
+  },
+  "gurobi": {
+   "OPTIMAL": 360
+  },
+  "lcs": {
+   "OPTIMAL_VERIFIED": 1440
+  },
+  "scip": {
+   "OPTIMAL": 655,
+   "TIMEOUT": 785
+  }
+ },
+ "certificates": {
+  "verified": 1440,
+  "pairs": 1440,
+  "kb_median": 96.5146484375,
+  "kb_max": 1494.287109375,
+  "verify_max": 1.1016238580014033,
+  "decisions": {
+   "solve": 4626,
+   "point": 754,
+   "halfspace": 5794,
+   "dominance": 384,
+   "memo": 3360
+  },
+  "bound_exceed": 0
+ },
+ "hypotheses": {
+  "H1": {
+   "n": 1000,
+   "diff": 0.7138888888888889,
+   "ci": [
+    0.6666666666666666,
+    0.7611111111111111
+   ],
+   "p": 0.0004997501249375312,
+   "pairs": 360,
+   "lcs_solved": 1.0,
+   "scip_solved": 0.2861111111111111,
+   "p_holm": 0.0014992503748125937
+  },
+  "H2": {
+   "mean_log_ratio": 2.989119291943964,
+   "ratio": 19.86817672066289,
+   "ci_ratio": [
+    18.144677019851244,
+    21.625373596140214
+   ],
+   "p": 0.0004997501249375312,
+   "pairs": 1440,
+   "p_holm": 0.0014992503748125937
+  },
+  "H3": {
+   "wins_minus_losses_rate": 0.6854166666666667,
+   "ci": [
+    0.6611111111111111,
+    0.7104166666666667
+   ],
+   "p": 0.0004997501249375312,
+   "wins": 987,
+   "ties": 453,
+   "losses": 0,
+   "missing": 0,
+   "p_holm": 0.0014992503748125937
+  }
+ },
+ "ablation": {
+  "enum|100": {
+   "pairs": 180,
+   "solved": 1.0,
+   "calls": 128.0,
+   "seconds": 0.9582623820000435
+  },
+  "enum|1000": {
+   "pairs": 180,
+   "solved": 0.6666666666666666,
+   "calls": 128.0,
+   "seconds": 11.870598397999856
+  },
+  "lcs|100": {
+   "pairs": 180,
+   "solved": 1.0,
+   "calls": 6.0,
+   "seconds": 0.09051696200003789
+  },
+  "lcs|1000": {
+   "pairs": 180,
+   "solved": 1.0,
+   "calls": 6.0,
+   "seconds": 0.7825108130000444
+  },
+  "lcs_nocache|100": {
+   "pairs": 180,
+   "solved": 1.0,
+   "calls": 10.0,
+   "seconds": 0.11937418299930869
+  },
+  "lcs_nocache|1000": {
+   "pairs": 180,
+   "solved": 1.0,
+   "calls": 10.0,
+   "seconds": 1.2435883109992574
+  },
+  "lcs_nohalf|100": {
+   "pairs": 180,
+   "solved": 1.0,
+   "calls": 8.0,
+   "seconds": 0.1197529775017756
+  },
+  "lcs_nohalf|1000": {
+   "pairs": 180,
+   "solved": 1.0,
+   "calls": 8.0,
+   "seconds": 1.1535454410004604
+  },
+  "lcs_nopoints|100": {
+   "pairs": 180,
+   "solved": 1.0,
+   "calls": 6.0,
+   "seconds": 0.10004659199876187
+  },
+  "lcs_nopoints|1000": {
+   "pairs": 180,
+   "solved": 1.0,
+   "calls": 7.0,
+   "seconds": 0.9366709750011069
+  }
+ },
+ "ablation_keys": {
+  "lcs_nopoints": {
+   "pairs": 360,
+   "differ": 0,
+   "call_ratio": 1.098303199362777
+  },
+  "lcs_nohalf": {
+   "pairs": 360,
+   "differ": 0,
+   "call_ratio": 1.4676300771212454
+  },
+  "lcs_nocache": {
+   "pairs": 360,
+   "differ": 0,
+   "call_ratio": 1.5805668164234357
+  }
+ },
+ "stress_profiles": {
+  "status": {
+   "enum|OPTIMAL_NUMERICAL": 240,
+   "eps|SAMPLE": 240,
+   "lcs|FEASIBLE_UNCERTIFIED": 15,
+   "lcs|OPTIMAL_NUMERICAL": 40,
+   "lcs|OPTIMAL_VERIFIED": 185,
+   "scip|OPTIMAL": 138,
+   "scip|TIMEOUT": 102
+  },
+  "keys": [
+   {
+    "method": "enum",
+    "pairs": 225,
+    "claimed_lcs_better": 6,
+    "claimed_tie": 214,
+    "claimed_lcs_worse": 5,
+    "claimed_missing": 0,
+    "evaluated_lcs_better": 38,
+    "evaluated_tie": 187,
+    "evaluated_lcs_worse": 0,
+    "evaluated_missing": 0
+   },
+   {
+    "method": "scip",
+    "pairs": 225,
+    "claimed_lcs_better": 65,
+    "claimed_tie": 134,
+    "claimed_lcs_worse": 26,
+    "claimed_missing": 0,
+    "evaluated_lcs_better": 59,
+    "evaluated_tie": 159,
+    "evaluated_lcs_worse": 3,
+    "evaluated_missing": 4
+   },
+   {
+    "method": "eps",
+    "pairs": 225,
+    "claimed_lcs_better": 0,
+    "claimed_tie": 0,
+    "claimed_lcs_worse": 0,
+    "claimed_missing": 225,
+    "evaluated_lcs_better": 81,
+    "evaluated_tie": 140,
+    "evaluated_lcs_worse": 4,
+    "evaluated_missing": 0
+   }
+  ],
+  "beat_verified": [
+   {
+    "method": "scip",
+    "id": "stress_profiles-00018",
+    "model": 2,
+    "residual_physical": 2.2829238499610938e-10,
+    "residual_priority": 3.745372367802702e-08
+   }
+  ],
+  "claims_above_verified": [
+   {
+    "method": "enum",
+    "id": "stress_profiles-00018",
+    "model": 2,
+    "status": "OPTIMAL_NUMERICAL",
+    "evaluated_beats": false
+   },
+   {
+    "method": "scip",
+    "id": "stress_profiles-00018",
+    "model": 2,
+    "status": "TIMEOUT",
+    "evaluated_beats": true
+   },
+   {
+    "method": "scip",
+    "id": "stress_profiles-00022",
+    "model": 2,
+    "status": "OPTIMAL",
+    "evaluated_beats": false
+   }
+  ]
+ },
+ "stress_dimension": {
+  "status": {
+   "enum|OPTIMAL_NUMERICAL": 60,
+   "enum|UNRESOLVED": 20,
+   "eps|SAMPLE": 60,
+   "lcs|OPTIMAL_VERIFIED": 80,
+   "scip|OPTIMAL": 37,
+   "scip|TIMEOUT": 43
+  },
+  "keys": [
+   {
+    "method": "enum",
+    "pairs": 80,
+    "claimed_lcs_better": 0,
+    "claimed_tie": 60,
+    "claimed_lcs_worse": 0,
+    "claimed_missing": 20,
+    "evaluated_lcs_better": 0,
+    "evaluated_tie": 60,
+    "evaluated_lcs_worse": 0,
+    "evaluated_missing": 20
+   },
+   {
+    "method": "scip",
+    "pairs": 80,
+    "claimed_lcs_better": 43,
+    "claimed_tie": 37,
+    "claimed_lcs_worse": 0,
+    "claimed_missing": 0,
+    "evaluated_lcs_better": 26,
+    "evaluated_tie": 46,
+    "evaluated_lcs_worse": 0,
+    "evaluated_missing": 8
+   },
+   {
+    "method": "eps",
+    "pairs": 60,
+    "claimed_lcs_better": 0,
+    "claimed_tie": 0,
+    "claimed_lcs_worse": 0,
+    "claimed_missing": 60,
+    "evaluated_lcs_better": 45,
+    "evaluated_tie": 15,
+    "evaluated_lcs_worse": 0,
+    "evaluated_missing": 0
+   }
+  ],
+  "beat_verified": [],
+  "claims_above_verified": []
+ },
+ "sensitivity": {
+  "status": {
+   "enum|OPTIMAL_NUMERICAL": 100,
+   "eps|SAMPLE": 100,
+   "lcs|OPTIMAL_VERIFIED": 100,
+   "scip|OPTIMAL": 56,
+   "scip|TIMEOUT": 44
+  },
+  "keys": [
+   {
+    "method": "enum",
+    "pairs": 100,
+    "claimed_lcs_better": 0,
+    "claimed_tie": 100,
+    "claimed_lcs_worse": 0,
+    "claimed_missing": 0,
+    "evaluated_lcs_better": 0,
+    "evaluated_tie": 100,
+    "evaluated_lcs_worse": 0,
+    "evaluated_missing": 0
+   },
+   {
+    "method": "scip",
+    "pairs": 100,
+    "claimed_lcs_better": 44,
+    "claimed_tie": 56,
+    "claimed_lcs_worse": 0,
+    "claimed_missing": 0,
+    "evaluated_lcs_better": 19,
+    "evaluated_tie": 68,
+    "evaluated_lcs_worse": 0,
+    "evaluated_missing": 13
+   },
+   {
+    "method": "eps",
+    "pairs": 100,
+    "claimed_lcs_better": 0,
+    "claimed_tie": 0,
+    "claimed_lcs_worse": 0,
+    "claimed_missing": 100,
+    "evaluated_lcs_better": 75,
+    "evaluated_tie": 25,
+    "evaluated_lcs_worse": 0,
+    "evaluated_missing": 0
+   }
+  ],
+  "beat_verified": [],
+  "claims_above_verified": []
+ },
+ "preference": {
+  "status": {
+   "enum|OPTIMAL_NUMERICAL": 180,
+   "eps|SAMPLE": 180,
+   "lcs|OPTIMAL_VERIFIED": 180,
+   "scip|OPTIMAL": 51,
+   "scip|TIMEOUT": 129
+  },
+  "keys": [
+   {
+    "method": "enum",
+    "pairs": 180,
+    "claimed_lcs_better": 0,
+    "claimed_tie": 180,
+    "claimed_lcs_worse": 0,
+    "claimed_missing": 0,
+    "evaluated_lcs_better": 0,
+    "evaluated_tie": 180,
+    "evaluated_lcs_worse": 0,
+    "evaluated_missing": 0
+   },
+   {
+    "method": "scip",
+    "pairs": 180,
+    "claimed_lcs_better": 131,
+    "claimed_tie": 49,
+    "claimed_lcs_worse": 0,
+    "claimed_missing": 0,
+    "evaluated_lcs_better": 50,
+    "evaluated_tie": 88,
+    "evaluated_lcs_worse": 0,
+    "evaluated_missing": 42
+   },
+   {
+    "method": "eps",
+    "pairs": 180,
+    "claimed_lcs_better": 0,
+    "claimed_tie": 0,
+    "claimed_lcs_worse": 0,
+    "claimed_missing": 180,
+    "evaluated_lcs_better": 134,
+    "evaluated_tie": 46,
+    "evaluated_lcs_worse": 0,
+    "evaluated_missing": 0
+   }
+  ],
+  "beat_verified": [],
+  "claims_above_verified": []
+ },
+ "memory": {
+  "lcs|100": {
+   "tasks": 12,
+   "median_mib": 128.96484375,
+   "max_mib": 131.37890625
+  },
+  "lcs|1000": {
+   "tasks": 12,
+   "median_mib": 158.248046875,
+   "max_mib": 171.18359375
+  },
+  "scip|100": {
+   "tasks": 12,
+   "median_mib": 151.0703125,
+   "max_mib": 155.8046875
+  },
+  "scip|1000": {
+   "tasks": 12,
+   "median_mib": 266.125,
+   "max_mib": 295.5234375
+  }
+ }
+}

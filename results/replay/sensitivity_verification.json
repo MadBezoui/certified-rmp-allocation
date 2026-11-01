@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "expected": 100,
+    "read": 100,
+    "verified": 100,
+    "matching_keys": 100,
+    "unresolved": 0,
+    "mismatched_keys": 0,
+    "invalid": 0,
+    "missing": 0
+  },
+  "evidence": {
+    "records_sha256": "0be5eaf529db3f0edb8441c3716598b4f738571b681aa747fe4cdf2de7f3e7d8",
+    "config_sha256": "72e270af6eaa416ff6d08f9246f034c675e2d8e55b1725e6eaef1f59e3ba7f58",
+    "checker_sha256": "70d4f2a0b40321136262d46817350abbe08d1098bca263e9ca1faec19e1bd4d1",
+    "verifier_sha256": "ff2b4526090315ab233903aa8a8ce4568130dc1d132d74ce5f3c78a72ca27c6d"
+  },
+  "issues": []
+}

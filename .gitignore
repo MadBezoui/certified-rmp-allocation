@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+data/raw/
+data/processed/
+figures/
+rerun/
+boundary-verification.json
+reanalysis/boundary_cases/verification/profiles/verification_240.json
+.DS_Store

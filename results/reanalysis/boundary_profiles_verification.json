@@ -1,0 +1,4588 @@
+{
+  "counts": {
+    "previous_verified": 185,
+    "same": 200,
+    "new_verified": 55,
+    "new_direct": 31,
+    "historical_higher": 40,
+    "new_quadratic": 24,
+    "checked": 240,
+    "independent_bound_comparisons": 505
+  },
+  "max_relative_refinement_epsilon_new": 8.327462253857642e-06,
+  "sha256": {
+    "04_Code_et_experiences/results/v1/manifest_stress_profiles.json": "a6f38daa8516c7e6cd9f07d304a373ccfc7961fa02933339169a1aa148891bc7",
+    "04_Code_et_experiences/results/v1/stress_profiles.jsonl": "c21804a15f5a988f919147d19334e22cb4813a2cdc3402c0683fe3b6d4549ea2",
+    "04_Code_et_experiences/results/replay_final_20261101/stress_profiles/records.jsonl": "029e522fb63f0b3853e2d357c4f9dff26b89cde37ed30c16ba73fe8002053c22",
+    "verification/profiles/certificats_55.jsonl": "f7bd75bd61b9dc0386c906d4786bbea6224a7d16f3be153e46639adc0a7451c0",
+    "verification/profiles/verificateur_quadratique.py": "ca3f1fd7c7c8b19f3ad85d314aaae0c147675baccf1f2d594ad3f716ecfff26c",
+    "verification/profiles/controle_borne_independant.py": "6f2e2897c6fc676e28938c98741b9b3aed3f6b8ef27db081f123663edcf95707",
+    "verification/profiles/reverifier_240.py": "9699fb20d8bbdeb86c31d8607fd35a10b404e57e60dae088b6e2df4c95823947",
+    "04_Code_et_experiences/certrmp/verify.py": "ff2b4526090315ab233903aa8a8ce4568130dc1d132d74ce5f3c78a72ca27c6d",
+    "04_Code_et_experiences/certrmp/certify.py": "23ac9a2a9e3546442b7bfa34b9384eb5da8cdd49f64171cdb7e30fa1ff919edc",
+    "04_Code_et_experiences/experiments/manifest.py": "34d864f140b387f8c9d464c33e909816a09965042477e2c7f0a76ab2af2dc467"
+  },
+  "errors": [],
+  "records": [
+    {
+      "id": "stress_profiles-00000",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 6.69790969625795e-11
+    },
+    {
+      "id": "stress_profiles-00000",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.1107962272516126e-10
+    },
+    {
+      "id": "stress_profiles-00000",
+      "model": 2,
+      "key": [
+        "57/100",
+        "3/25",
+        "3/25",
+        "3/25"
+      ],
+      "historical_key": [
+        "22/25",
+        "22/25",
+        "22/25",
+        "22/25"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 7.359004407677403e-07
+    },
+    {
+      "id": "stress_profiles-00000",
+      "model": 3,
+      "key": [
+        "3",
+        "2",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "3",
+        "2",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.14710562942823e-06
+    },
+    {
+      "id": "stress_profiles-00001",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 6.612129011599703e-11
+    },
+    {
+      "id": "stress_profiles-00001",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 2.7455216482551667e-10
+    },
+    {
+      "id": "stress_profiles-00001",
+      "model": 2,
+      "key": [
+        "22/25",
+        "24/25",
+        "24/25",
+        "21/25"
+      ],
+      "historical_key": [
+        "1",
+        "24/25",
+        "24/25",
+        "24/25"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 1.6762553602472286e-06
+    },
+    {
+      "id": "stress_profiles-00001",
+      "model": 3,
+      "key": [
+        "4",
+        "6",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "4",
+        "6",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.572938301521016e-06
+    },
+    {
+      "id": "stress_profiles-00002",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 8.089995153563546e-11
+    },
+    {
+      "id": "stress_profiles-00002",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.39748840803934e-10
+    },
+    {
+      "id": "stress_profiles-00002",
+      "model": 2,
+      "key": [
+        "24/25",
+        "24/25",
+        "23/100",
+        "19/100"
+      ],
+      "historical_key": [
+        "1",
+        "81/100",
+        "23/100",
+        "19/100"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 3.956280382950435e-06
+    },
+    {
+      "id": "stress_profiles-00002",
+      "model": 3,
+      "key": [
+        "4",
+        "2",
+        "3",
+        "2"
+      ],
+      "historical_key": [
+        "4",
+        "2",
+        "3",
+        "2"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 2.701102639843526e-06
+    },
+    {
+      "id": "stress_profiles-00003",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.2610168517929211e-10
+    },
+    {
+      "id": "stress_profiles-00003",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.1008490397480766e-10
+    },
+    {
+      "id": "stress_profiles-00003",
+      "model": 2,
+      "key": [
+        "99/100",
+        "99/100",
+        "67/100",
+        "67/100"
+      ],
+      "historical_key": [
+        "1",
+        "17/25",
+        "17/25",
+        "17/25"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 1.4896928234807967e-06
+    },
+    {
+      "id": "stress_profiles-00003",
+      "model": 3,
+      "key": [
+        "2",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "2",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.5697727923232752e-06
+    },
+    {
+      "id": "stress_profiles-00004",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.6143713726247447e-10
+    },
+    {
+      "id": "stress_profiles-00004",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 2.318072221374486e-10
+    },
+    {
+      "id": "stress_profiles-00004",
+      "model": 2,
+      "key": [
+        "22/25",
+        "77/100",
+        "7/20",
+        "13/20"
+      ],
+      "historical_key": [
+        "22/25",
+        "77/100",
+        "7/20",
+        "13/20"
+      ],
+      "relation": "same",
+      "new": true,
+      "refinement_epsilon_relative": 2.2643194855186539e-07
+    },
+    {
+      "id": "stress_profiles-00004",
+      "model": 3,
+      "key": [
+        "4",
+        "5",
+        "5",
+        "3"
+      ],
+      "historical_key": [
+        "4",
+        "5",
+        "5",
+        "3"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 2.261650435151358e-06
+    },
+    {
+      "id": "stress_profiles-00005",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.0715780532182505e-10
+    },
+    {
+      "id": "stress_profiles-00005",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.270854839605007e-10
+    },
+    {
+      "id": "stress_profiles-00005",
+      "model": 2,
+      "key": [
+        "99/100",
+        "21/50",
+        "21/50",
+        "99/100"
+      ],
+      "historical_key": [
+        "1",
+        "21/50",
+        "21/50",
+        "57/100"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 2.4543104539880877e-06
+    },
+    {
+      "id": "stress_profiles-00005",
+      "model": 3,
+      "key": [
+        "4",
+        "4",
+        "4",
+        "4"
+      ],
+      "historical_key": [
+        "4",
+        "4",
+        "4",
+        "4"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 9.763493320551316e-07
+    },
+    {
+      "id": "stress_profiles-00006",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.1742634264117072e-10
+    },
+    {
+      "id": "stress_profiles-00006",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.447071281295811e-10
+    },
+    {
+      "id": "stress_profiles-00006",
+      "model": 2,
+      "key": [
+        "1",
+        "1",
+        "3/10",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "3/10",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.5040061993158013e-06
+    },
+    {
+      "id": "stress_profiles-00006",
+      "model": 3,
+      "key": [
+        "2",
+        "3",
+        "1",
+        "5"
+      ],
+      "historical_key": [
+        "2",
+        "3",
+        "1",
+        "5"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.2444384819776143e-06
+    },
+    {
+      "id": "stress_profiles-00007",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 9.24593860087061e-11
+    },
+    {
+      "id": "stress_profiles-00007",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.1016360886768045e-10
+    },
+    {
+      "id": "stress_profiles-00007",
+      "model": 2,
+      "key": [
+        "14/25",
+        "21/25",
+        "2/5",
+        "14/25"
+      ],
+      "historical_key": [
+        "3/5",
+        "11/25",
+        "3/5",
+        "3/5"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 4.3833080653939073e-07
+    },
+    {
+      "id": "stress_profiles-00007",
+      "model": 3,
+      "key": [
+        "4",
+        "4",
+        "3",
+        "3"
+      ],
+      "historical_key": [
+        "4",
+        "4",
+        "3",
+        "3"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 7.587629547315366e-11
+    },
+    {
+      "id": "stress_profiles-00008",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 6.816053505193042e-11
+    },
+    {
+      "id": "stress_profiles-00008",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 8.305895282763287e-11
+    },
+    {
+      "id": "stress_profiles-00008",
+      "model": 2,
+      "key": [
+        "89/100",
+        "39/50",
+        "89/100",
+        "89/100"
+      ],
+      "historical_key": [
+        "89/100",
+        "89/100",
+        "1",
+        "89/100"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 5.103993237828519e-07
+    },
+    {
+      "id": "stress_profiles-00008",
+      "model": 3,
+      "key": [
+        "6",
+        "3",
+        "4",
+        "4"
+      ],
+      "historical_key": [
+        "6",
+        "3",
+        "4",
+        "4"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 6.489197257904388e-07
+    },
+    {
+      "id": "stress_profiles-00009",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 9.083596859671125e-11
+    },
+    {
+      "id": "stress_profiles-00009",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.3022263102489472e-10
+    },
+    {
+      "id": "stress_profiles-00009",
+      "model": 2,
+      "key": [
+        "71/100",
+        "67/100",
+        "67/100",
+        "71/100"
+      ],
+      "historical_key": [
+        "24/25",
+        "24/25",
+        "24/25",
+        "24/25"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 8.37872947102856e-07
+    },
+    {
+      "id": "stress_profiles-00009",
+      "model": 3,
+      "key": [
+        "4",
+        "4",
+        "0",
+        "1"
+      ],
+      "historical_key": [
+        "4",
+        "4",
+        "0",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 4.456920539626799e-06
+    },
+    {
+      "id": "stress_profiles-00010",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.7191392216945364e-10
+    },
+    {
+      "id": "stress_profiles-00010",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 2.2955548462952212e-10
+    },
+    {
+      "id": "stress_profiles-00010",
+      "model": 2,
+      "key": [
+        "41/100",
+        "41/100",
+        "3/4",
+        "21/25"
+      ],
+      "historical_key": [
+        "21/25",
+        "1",
+        "3/4",
+        "59/100"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 3.871512428810871e-07
+    },
+    {
+      "id": "stress_profiles-00010",
+      "model": 3,
+      "key": [
+        "3",
+        "1",
+        "1",
+        "2"
+      ],
+      "historical_key": [
+        "3",
+        "1",
+        "1",
+        "2"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 8.807013923456329e-07
+    },
+    {
+      "id": "stress_profiles-00011",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 9.034201405454882e-11
+    },
+    {
+      "id": "stress_profiles-00011",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.224574318892628e-10
+    },
+    {
+      "id": "stress_profiles-00011",
+      "model": 2,
+      "key": [
+        "4/5",
+        "4/5",
+        "17/25",
+        "17/25"
+      ],
+      "historical_key": [
+        "4/5",
+        "4/5",
+        "17/25",
+        "17/25"
+      ],
+      "relation": "same",
+      "new": true,
+      "refinement_epsilon_relative": 2.7151327630498547e-06
+    },
+    {
+      "id": "stress_profiles-00011",
+      "model": 3,
+      "key": [
+        "6",
+        "1",
+        "1",
+        "3"
+      ],
+      "historical_key": [
+        "6",
+        "1",
+        "1",
+        "3"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 2.448894313520125e-07
+    },
+    {
+      "id": "stress_profiles-00012",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 2.911184406895715e-11
+    },
+    {
+      "id": "stress_profiles-00012",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 7.960182430287945e-11
+    },
+    {
+      "id": "stress_profiles-00012",
+      "model": 2,
+      "key": [
+        "3/5",
+        "3/5",
+        "3/5",
+        "3/5"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 2.5135540927541557e-06
+    },
+    {
+      "id": "stress_profiles-00012",
+      "model": 3,
+      "key": [
+        "3",
+        "2",
+        "4",
+        "2"
+      ],
+      "historical_key": [
+        "3",
+        "2",
+        "4",
+        "2"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 3.4949961680917977e-06
+    },
+    {
+      "id": "stress_profiles-00013",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 6.753214482457836e-11
+    },
+    {
+      "id": "stress_profiles-00013",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 6.223912888478984e-11
+    },
+    {
+      "id": "stress_profiles-00013",
+      "model": 2,
+      "key": [
+        "18/25",
+        "1/100",
+        "1/100",
+        "18/25"
+      ],
+      "historical_key": [
+        "1",
+        "1/100",
+        "29/100",
+        "29/100"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 9.666120577329653e-07
+    },
+    {
+      "id": "stress_profiles-00013",
+      "model": 3,
+      "key": [
+        "5",
+        "3",
+        "3",
+        "4"
+      ],
+      "historical_key": [
+        "5",
+        "3",
+        "3",
+        "4"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 2.593295952231776e-08
+    },
+    {
+      "id": "stress_profiles-00014",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.169866140794541e-10
+    },
+    {
+      "id": "stress_profiles-00014",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.3406180338683573e-10
+    },
+    {
+      "id": "stress_profiles-00014",
+      "model": 2,
+      "key": [
+        "11/20",
+        "11/20",
+        "13/20",
+        "1/5"
+      ],
+      "historical_key": [
+        "4/5",
+        "4/5",
+        "13/20",
+        "13/20"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 1.3406259853558574e-06
+    },
+    {
+      "id": "stress_profiles-00014",
+      "model": 3,
+      "key": [
+        "6",
+        "5",
+        "6",
+        "6"
+      ],
+      "historical_key": [
+        "6",
+        "5",
+        "6",
+        "6"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 5.638896068179133e-08
+    },
+    {
+      "id": "stress_profiles-00015",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 4.379308071694867e-11
+    },
+    {
+      "id": "stress_profiles-00015",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.1167878317130873e-10
+    },
+    {
+      "id": "stress_profiles-00015",
+      "model": 2,
+      "key": [
+        "3/4",
+        "57/100",
+        "9/50",
+        "57/100"
+      ],
+      "historical_key": [
+        "41/50",
+        "41/50",
+        "41/50",
+        "41/50"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 6.805043618738658e-07
+    },
+    {
+      "id": "stress_profiles-00015",
+      "model": 3,
+      "key": [
+        "4",
+        "5",
+        "5",
+        "5"
+      ],
+      "historical_key": [
+        "4",
+        "5",
+        "5",
+        "5"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 8.940106449860644e-06
+    },
+    {
+      "id": "stress_profiles-00016",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 2.2194020532622568e-10
+    },
+    {
+      "id": "stress_profiles-00016",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 2.5504904590674727e-10
+    },
+    {
+      "id": "stress_profiles-00016",
+      "model": 2,
+      "key": [
+        "49/50",
+        "33/50",
+        "33/50",
+        "49/50"
+      ],
+      "historical_key": [
+        "49/50",
+        "33/50",
+        "33/50",
+        "49/50"
+      ],
+      "relation": "same",
+      "new": true,
+      "refinement_epsilon_relative": 2.468764210067111e-07
+    },
+    {
+      "id": "stress_profiles-00016",
+      "model": 3,
+      "key": [
+        "5",
+        "3",
+        "5",
+        "3"
+      ],
+      "historical_key": [
+        "5",
+        "3",
+        "5",
+        "3"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 3.7201918259996804e-06
+    },
+    {
+      "id": "stress_profiles-00017",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.181076297692531e-10
+    },
+    {
+      "id": "stress_profiles-00017",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.6269484301861608e-10
+    },
+    {
+      "id": "stress_profiles-00017",
+      "model": 2,
+      "key": [
+        "83/100",
+        "83/100",
+        "3/5",
+        "83/100"
+      ],
+      "historical_key": [
+        "83/100",
+        "83/100",
+        "1",
+        "83/100"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 1.6190516661987098e-06
+    },
+    {
+      "id": "stress_profiles-00017",
+      "model": 3,
+      "key": [
+        "7",
+        "5",
+        "3",
+        "5"
+      ],
+      "historical_key": [
+        "7",
+        "5",
+        "3",
+        "5"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.1536390763943108e-10
+    },
+    {
+      "id": "stress_profiles-00018",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 6.183005657975779e-11
+    },
+    {
+      "id": "stress_profiles-00018",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 8.004370956111232e-11
+    },
+    {
+      "id": "stress_profiles-00018",
+      "model": 2,
+      "key": [
+        "7/25",
+        "37/50",
+        "1/50",
+        "1/50"
+      ],
+      "historical_key": [
+        "7/25",
+        "37/50",
+        "1/50",
+        "1/50"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 5.90737055288284e-07
+    },
+    {
+      "id": "stress_profiles-00018",
+      "model": 3,
+      "key": [
+        "3",
+        "5",
+        "5",
+        "1"
+      ],
+      "historical_key": [
+        "3",
+        "5",
+        "5",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 5.998807819748819e-07
+    },
+    {
+      "id": "stress_profiles-00019",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 3.1928605159208786e-11
+    },
+    {
+      "id": "stress_profiles-00019",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 9.083015323503271e-11
+    },
+    {
+      "id": "stress_profiles-00019",
+      "model": 2,
+      "key": [
+        "49/50",
+        "22/25",
+        "49/50",
+        "3/25"
+      ],
+      "historical_key": [
+        "49/50",
+        "9/10",
+        "22/25",
+        "3/25"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 8.327462253857642e-06
+    },
+    {
+      "id": "stress_profiles-00019",
+      "model": 3,
+      "key": [
+        "4",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "4",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.5356565345186415e-06
+    },
+    {
+      "id": "stress_profiles-00020",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 5.235395007645233e-11
+    },
+    {
+      "id": "stress_profiles-00020",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 6.337872344138974e-11
+    },
+    {
+      "id": "stress_profiles-00020",
+      "model": 2,
+      "key": [
+        "57/100",
+        "3/25",
+        "3/25",
+        "3/25"
+      ],
+      "historical_key": [
+        "1",
+        "3/25",
+        "11/20",
+        "11/20"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 7.371044019655197e-07
+    },
+    {
+      "id": "stress_profiles-00020",
+      "model": 3,
+      "key": [
+        "3",
+        "2",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "3",
+        "2",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.4987781893731264e-06
+    },
+    {
+      "id": "stress_profiles-00021",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 8.665708018492571e-13
+    },
+    {
+      "id": "stress_profiles-00021",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 4.1131883617891296e-11
+    },
+    {
+      "id": "stress_profiles-00021",
+      "model": 2,
+      "key": [
+        "24/25",
+        "24/25",
+        "24/25",
+        "21/25"
+      ],
+      "historical_key": [
+        "24/25",
+        "24/25",
+        "24/25",
+        "24/25"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 2.187858569741467e-06
+    },
+    {
+      "id": "stress_profiles-00021",
+      "model": 3,
+      "key": [
+        "4",
+        "6",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "4",
+        "6",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.7667251416109801e-06
+    },
+    {
+      "id": "stress_profiles-00022",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.1911316075365003e-11
+    },
+    {
+      "id": "stress_profiles-00022",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 2.1816834097966515e-11
+    },
+    {
+      "id": "stress_profiles-00022",
+      "model": 2,
+      "key": [
+        "24/25",
+        "24/25",
+        "23/100",
+        "19/100"
+      ],
+      "historical_key": [
+        "24/25",
+        "24/25",
+        "23/100",
+        "19/100"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 6.4978852204196695e-06
+    },
+    {
+      "id": "stress_profiles-00022",
+      "model": 3,
+      "key": [
+        "4",
+        "2",
+        "3",
+        "2"
+      ],
+      "historical_key": [
+        "4",
+        "2",
+        "3",
+        "2"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 2.963046177625165e-06
+    },
+    {
+      "id": "stress_profiles-00023",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.5183039215403796e-11
+    },
+    {
+      "id": "stress_profiles-00023",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.7612049081182557e-11
+    },
+    {
+      "id": "stress_profiles-00023",
+      "model": 2,
+      "key": [
+        "99/100",
+        "99/100",
+        "67/100",
+        "67/100"
+      ],
+      "historical_key": [
+        "1",
+        "17/25",
+        "17/25",
+        "17/25"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 1.4081523307191011e-06
+    },
+    {
+      "id": "stress_profiles-00023",
+      "model": 3,
+      "key": [
+        "2",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "2",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.2928512633821083e-06
+    },
+    {
+      "id": "stress_profiles-00024",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 3.0375394795468936e-10
+    },
+    {
+      "id": "stress_profiles-00024",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 2.878693347379318e-10
+    },
+    {
+      "id": "stress_profiles-00024",
+      "model": 2,
+      "key": [
+        "77/100",
+        "77/100",
+        "7/20",
+        "77/100"
+      ],
+      "historical_key": [
+        "22/25",
+        "22/25",
+        "7/20",
+        "22/25"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 1.5073799357095772e-06
+    },
+    {
+      "id": "stress_profiles-00024",
+      "model": 3,
+      "key": [
+        "4",
+        "5",
+        "2",
+        "5"
+      ],
+      "historical_key": [
+        "4",
+        "5",
+        "2",
+        "5"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 9.512005031071902e-07
+    },
+    {
+      "id": "stress_profiles-00025",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.9428822567309375e-12
+    },
+    {
+      "id": "stress_profiles-00025",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.3140206281638638e-11
+    },
+    {
+      "id": "stress_profiles-00025",
+      "model": 2,
+      "key": [
+        "99/100",
+        "21/50",
+        "21/50",
+        "99/100"
+      ],
+      "historical_key": [
+        "99/100",
+        "21/50",
+        "21/50",
+        "99/100"
+      ],
+      "relation": "same",
+      "new": true,
+      "refinement_epsilon_relative": 1.2094895779346943e-06
+    },
+    {
+      "id": "stress_profiles-00025",
+      "model": 3,
+      "key": [
+        "4",
+        "4",
+        "4",
+        "6"
+      ],
+      "historical_key": [
+        "4",
+        "4",
+        "4",
+        "6"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 6.316218054325761e-07
+    },
+    {
+      "id": "stress_profiles-00026",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.3401429051914359e-10
+    },
+    {
+      "id": "stress_profiles-00026",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.5421265212827122e-10
+    },
+    {
+      "id": "stress_profiles-00026",
+      "model": 2,
+      "key": [
+        "1",
+        "1",
+        "3/10",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "3/10",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.4758911432640965e-06
+    },
+    {
+      "id": "stress_profiles-00026",
+      "model": 3,
+      "key": [
+        "2",
+        "3",
+        "1",
+        "5"
+      ],
+      "historical_key": [
+        "2",
+        "3",
+        "1",
+        "5"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.5084556093756306e-06
+    },
+    {
+      "id": "stress_profiles-00027",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 6.166870118745365e-11
+    },
+    {
+      "id": "stress_profiles-00027",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 8.670398803097269e-11
+    },
+    {
+      "id": "stress_profiles-00027",
+      "model": 2,
+      "key": [
+        "14/25",
+        "21/25",
+        "14/25",
+        "14/25"
+      ],
+      "historical_key": [
+        "14/25",
+        "21/25",
+        "14/25",
+        "14/25"
+      ],
+      "relation": "same",
+      "new": true,
+      "refinement_epsilon_relative": 4.6331555129566956e-07
+    },
+    {
+      "id": "stress_profiles-00027",
+      "model": 3,
+      "key": [
+        "4",
+        "4",
+        "3",
+        "3"
+      ],
+      "historical_key": [
+        "4",
+        "4",
+        "3",
+        "3"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 2.0233899286165477e-08
+    },
+    {
+      "id": "stress_profiles-00028",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.710524373874765e-11
+    },
+    {
+      "id": "stress_profiles-00028",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 9.025069192771969e-12
+    },
+    {
+      "id": "stress_profiles-00028",
+      "model": 2,
+      "key": [
+        "89/100",
+        "89/100",
+        "11/100",
+        "11/100"
+      ],
+      "historical_key": [
+        "89/100",
+        "89/100",
+        "89/100",
+        "89/100"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 1.8038655074195112e-06
+    },
+    {
+      "id": "stress_profiles-00028",
+      "model": 3,
+      "key": [
+        "6",
+        "3",
+        "1",
+        "4"
+      ],
+      "historical_key": [
+        "6",
+        "3",
+        "1",
+        "4"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 5.447977637244473e-07
+    },
+    {
+      "id": "stress_profiles-00029",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.303170748278664e-10
+    },
+    {
+      "id": "stress_profiles-00029",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.4146468995223066e-10
+    },
+    {
+      "id": "stress_profiles-00029",
+      "model": 2,
+      "key": [
+        "24/25",
+        "24/25",
+        "24/25",
+        "24/25"
+      ],
+      "historical_key": [
+        "24/25",
+        "24/25",
+        "24/25",
+        "24/25"
+      ],
+      "relation": "same",
+      "new": true,
+      "refinement_epsilon_relative": 1.0880491903680937e-15
+    },
+    {
+      "id": "stress_profiles-00029",
+      "model": 3,
+      "key": [
+        "4",
+        "4",
+        "0",
+        "1"
+      ],
+      "historical_key": [
+        "4",
+        "4",
+        "0",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 3.128807744857948e-06
+    },
+    {
+      "id": "stress_profiles-00030",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.033528651922418e-11
+    },
+    {
+      "id": "stress_profiles-00030",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 6.404368408410327e-11
+    },
+    {
+      "id": "stress_profiles-00030",
+      "model": 2,
+      "key": [
+        "41/100",
+        "3/4",
+        "3/4",
+        "3/4"
+      ],
+      "historical_key": [
+        "1",
+        "3/4",
+        "3/4",
+        "59/100"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 7.18355718646194e-08
+    },
+    {
+      "id": "stress_profiles-00030",
+      "model": 3,
+      "key": [
+        "3",
+        "1",
+        "1",
+        "2"
+      ],
+      "historical_key": [
+        "3",
+        "1",
+        "1",
+        "2"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.0291598790531376e-06
+    },
+    {
+      "id": "stress_profiles-00031",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.823622362409519e-11
+    },
+    {
+      "id": "stress_profiles-00031",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 2.505228707739992e-11
+    },
+    {
+      "id": "stress_profiles-00031",
+      "model": 2,
+      "key": [
+        "4/5",
+        "4/5",
+        "17/25",
+        "17/25"
+      ],
+      "historical_key": [
+        "4/5",
+        "4/5",
+        "17/25",
+        "17/25"
+      ],
+      "relation": "same",
+      "new": true,
+      "refinement_epsilon_relative": 4.844877055751756e-06
+    },
+    {
+      "id": "stress_profiles-00031",
+      "model": 3,
+      "key": [
+        "6",
+        "1",
+        "1",
+        "3"
+      ],
+      "historical_key": [
+        "6",
+        "1",
+        "1",
+        "3"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.928663332616362e-07
+    },
+    {
+      "id": "stress_profiles-00032",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 9.609975134230268e-11
+    },
+    {
+      "id": "stress_profiles-00032",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 9.411047407669537e-11
+    },
+    {
+      "id": "stress_profiles-00032",
+      "model": 2,
+      "key": [
+        "3/5",
+        "3/5",
+        "3/5",
+        "3/5"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "3/5"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 2.208862975525345e-06
+    },
+    {
+      "id": "stress_profiles-00032",
+      "model": 3,
+      "key": [
+        "3",
+        "2",
+        "3",
+        "2"
+      ],
+      "historical_key": [
+        "3",
+        "2",
+        "3",
+        "2"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 8.116430391120216e-06
+    },
+    {
+      "id": "stress_profiles-00033",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.343133776907739e-12
+    },
+    {
+      "id": "stress_profiles-00033",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 7.320984432731849e-12
+    },
+    {
+      "id": "stress_profiles-00033",
+      "model": 2,
+      "key": [
+        "99/100",
+        "99/100",
+        "99/100",
+        "99/100"
+      ],
+      "historical_key": [
+        "1",
+        "1/100",
+        "1/100",
+        "99/100"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 2.1448893942568607e-07
+    },
+    {
+      "id": "stress_profiles-00033",
+      "model": 3,
+      "key": [
+        "5",
+        "3",
+        "3",
+        "4"
+      ],
+      "historical_key": [
+        "5",
+        "3",
+        "3",
+        "4"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 7.345448834374488e-07
+    },
+    {
+      "id": "stress_profiles-00034",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 3.0669435309370505e-11
+    },
+    {
+      "id": "stress_profiles-00034",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.7551711563134233e-11
+    },
+    {
+      "id": "stress_profiles-00034",
+      "model": 2,
+      "key": [
+        "11/20",
+        "11/20",
+        "13/20",
+        "1/5"
+      ],
+      "historical_key": [
+        "4/5",
+        "4/5",
+        "13/20",
+        "4/5"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 1.133183898481822e-06
+    },
+    {
+      "id": "stress_profiles-00034",
+      "model": 3,
+      "key": [
+        "6",
+        "5",
+        "6",
+        "6"
+      ],
+      "historical_key": [
+        "6",
+        "5",
+        "6",
+        "6"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 6.962126976422643e-08
+    },
+    {
+      "id": "stress_profiles-00035",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 4.794997620245421e-13
+    },
+    {
+      "id": "stress_profiles-00035",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 6.5743367058757124e-12
+    },
+    {
+      "id": "stress_profiles-00035",
+      "model": 2,
+      "key": [
+        "3/4",
+        "57/100",
+        "3/4",
+        "57/100"
+      ],
+      "historical_key": [
+        "3/4",
+        "57/100",
+        "3/4",
+        "57/100"
+      ],
+      "relation": "same",
+      "new": true,
+      "refinement_epsilon_relative": 4.157854261775435e-06
+    },
+    {
+      "id": "stress_profiles-00035",
+      "model": 3,
+      "key": [
+        "4",
+        "5",
+        "5",
+        "5"
+      ],
+      "historical_key": [
+        "4",
+        "5",
+        "5",
+        "5"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 8.943513253895406e-06
+    },
+    {
+      "id": "stress_profiles-00036",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.0501793760319037e-10
+    },
+    {
+      "id": "stress_profiles-00036",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.673012958924191e-10
+    },
+    {
+      "id": "stress_profiles-00036",
+      "model": 2,
+      "key": [
+        "49/50",
+        "33/50",
+        "33/50",
+        "49/50"
+      ],
+      "historical_key": [
+        "1",
+        "33/50",
+        "33/50",
+        "49/50"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 2.615969494568581e-07
+    },
+    {
+      "id": "stress_profiles-00036",
+      "model": 3,
+      "key": [
+        "5",
+        "3",
+        "5",
+        "3"
+      ],
+      "historical_key": [
+        "5",
+        "3",
+        "5",
+        "3"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 3.933020249444525e-06
+    },
+    {
+      "id": "stress_profiles-00037",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.0597082937661897e-11
+    },
+    {
+      "id": "stress_profiles-00037",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.7827228401939982e-11
+    },
+    {
+      "id": "stress_profiles-00037",
+      "model": 2,
+      "key": [
+        "83/100",
+        "83/100",
+        "3/5",
+        "83/100"
+      ],
+      "historical_key": [
+        "83/100",
+        "1",
+        "3/5",
+        "83/100"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 6.298416524529459e-07
+    },
+    {
+      "id": "stress_profiles-00037",
+      "model": 3,
+      "key": [
+        "7",
+        "5",
+        "3",
+        "5"
+      ],
+      "historical_key": [
+        "7",
+        "5",
+        "3",
+        "5"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 8.523319950460462e-09
+    },
+    {
+      "id": "stress_profiles-00038",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.753755761165636e-12
+    },
+    {
+      "id": "stress_profiles-00038",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 5.713509976454198e-11
+    },
+    {
+      "id": "stress_profiles-00038",
+      "model": 2,
+      "key": [
+        "7/25",
+        "37/50",
+        "1/50",
+        "1/50"
+      ],
+      "historical_key": [
+        "49/50",
+        "37/50",
+        "37/50",
+        "37/50"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 4.3599362452217923e-07
+    },
+    {
+      "id": "stress_profiles-00038",
+      "model": 3,
+      "key": [
+        "3",
+        "5",
+        "5",
+        "1"
+      ],
+      "historical_key": [
+        "3",
+        "5",
+        "5",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 6.035067383505252e-07
+    },
+    {
+      "id": "stress_profiles-00039",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 9.56327199126443e-12
+    },
+    {
+      "id": "stress_profiles-00039",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 2.0142252485803984e-11
+    },
+    {
+      "id": "stress_profiles-00039",
+      "model": 2,
+      "key": [
+        "49/50",
+        "22/25",
+        "49/50",
+        "3/25"
+      ],
+      "historical_key": [
+        "49/50",
+        "22/25",
+        "49/50",
+        "3/25"
+      ],
+      "relation": "same",
+      "new": true,
+      "refinement_epsilon_relative": 5.32082680496199e-06
+    },
+    {
+      "id": "stress_profiles-00039",
+      "model": 3,
+      "key": [
+        "4",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "4",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.5802519761487127e-06
+    },
+    {
+      "id": "stress_profiles-00040",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 3.7569200531218985e-11
+    },
+    {
+      "id": "stress_profiles-00040",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 4.866798454214178e-11
+    },
+    {
+      "id": "stress_profiles-00040",
+      "model": 2,
+      "key": [
+        "57/100",
+        "3/25",
+        "3/25",
+        "3/25"
+      ],
+      "historical_key": [
+        "22/25",
+        "22/25",
+        "22/25",
+        "22/25"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 7.359025249705387e-07
+    },
+    {
+      "id": "stress_profiles-00040",
+      "model": 3,
+      "key": [
+        "3",
+        "2",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "3",
+        "2",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.5866034637685703e-06
+    },
+    {
+      "id": "stress_profiles-00041",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 8.169289116747482e-11
+    },
+    {
+      "id": "stress_profiles-00041",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 5.245211643517986e-11
+    },
+    {
+      "id": "stress_profiles-00041",
+      "model": 2,
+      "key": [
+        "22/25",
+        "24/25",
+        "24/25",
+        "21/25"
+      ],
+      "historical_key": [
+        "24/25",
+        "24/25",
+        "24/25",
+        "24/25"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 4.3403317127891656e-07
+    },
+    {
+      "id": "stress_profiles-00041",
+      "model": 3,
+      "key": [
+        "4",
+        "6",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "4",
+        "6",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 9.902677161021901e-07
+    },
+    {
+      "id": "stress_profiles-00042",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 3.16957403196819e-13
+    },
+    {
+      "id": "stress_profiles-00042",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 3.448985001681451e-12
+    },
+    {
+      "id": "stress_profiles-00042",
+      "model": 2,
+      "key": [
+        "24/25",
+        "24/25",
+        "19/100",
+        "19/100"
+      ],
+      "historical_key": [
+        "24/25",
+        "24/25",
+        "19/100",
+        "19/100"
+      ],
+      "relation": "same",
+      "new": true,
+      "refinement_epsilon_relative": 7.895966419227323e-06
+    },
+    {
+      "id": "stress_profiles-00042",
+      "model": 3,
+      "key": [
+        "4",
+        "2",
+        "3",
+        "2"
+      ],
+      "historical_key": [
+        "4",
+        "2",
+        "3",
+        "2"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 2.723203520904908e-06
+    },
+    {
+      "id": "stress_profiles-00043",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 9.748960236380896e-11
+    },
+    {
+      "id": "stress_profiles-00043",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 9.921609784038598e-11
+    },
+    {
+      "id": "stress_profiles-00043",
+      "model": 2,
+      "key": [
+        "99/100",
+        "99/100",
+        "67/100",
+        "67/100"
+      ],
+      "historical_key": [
+        "1",
+        "17/25",
+        "17/25",
+        "17/25"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 1.489693267557618e-06
+    },
+    {
+      "id": "stress_profiles-00043",
+      "model": 3,
+      "key": [
+        "2",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "2",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.5664295963780951e-06
+    },
+    {
+      "id": "stress_profiles-00044",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.504825416070049e-10
+    },
+    {
+      "id": "stress_profiles-00044",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.6082296690850693e-10
+    },
+    {
+      "id": "stress_profiles-00044",
+      "model": 2,
+      "key": [
+        "77/100",
+        "77/100",
+        "7/20",
+        "77/100"
+      ],
+      "historical_key": [
+        "1",
+        "7/20",
+        "7/20",
+        "7/20"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 5.887708650923628e-07
+    },
+    {
+      "id": "stress_profiles-00044",
+      "model": 3,
+      "key": [
+        "4",
+        "5",
+        "5",
+        "5"
+      ],
+      "historical_key": [
+        "4",
+        "5",
+        "5",
+        "5"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 7.181334142706021e-07
+    },
+    {
+      "id": "stress_profiles-00045",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 7.610463771665496e-11
+    },
+    {
+      "id": "stress_profiles-00045",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 8.844758864725061e-11
+    },
+    {
+      "id": "stress_profiles-00045",
+      "model": 2,
+      "key": [
+        "99/100",
+        "21/50",
+        "21/50",
+        "99/100"
+      ],
+      "historical_key": [
+        "99/100",
+        "21/50",
+        "21/50",
+        "99/100"
+      ],
+      "relation": "same",
+      "new": true,
+      "refinement_epsilon_relative": 1.037691511007798e-06
+    },
+    {
+      "id": "stress_profiles-00045",
+      "model": 3,
+      "key": [
+        "4",
+        "4",
+        "4",
+        "6"
+      ],
+      "historical_key": [
+        "4",
+        "4",
+        "4",
+        "6"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 5.891648576705759e-07
+    },
+    {
+      "id": "stress_profiles-00046",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.2662405369298568e-10
+    },
+    {
+      "id": "stress_profiles-00046",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.2862709402314528e-10
+    },
+    {
+      "id": "stress_profiles-00046",
+      "model": 2,
+      "key": [
+        "1",
+        "1",
+        "3/10",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "3/10",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.5360031241038233e-06
+    },
+    {
+      "id": "stress_profiles-00046",
+      "model": 3,
+      "key": [
+        "2",
+        "3",
+        "1",
+        "5"
+      ],
+      "historical_key": [
+        "2",
+        "3",
+        "1",
+        "5"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.369947896450249e-06
+    },
+    {
+      "id": "stress_profiles-00047",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 2.0735343089572934e-11
+    },
+    {
+      "id": "stress_profiles-00047",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 9.5437818363235e-12
+    },
+    {
+      "id": "stress_profiles-00047",
+      "model": 2,
+      "key": [
+        "14/25",
+        "21/25",
+        "2/5",
+        "14/25"
+      ],
+      "historical_key": [
+        "21/25",
+        "21/25",
+        "21/25",
+        "21/25"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 3.8200458435782225e-07
+    },
+    {
+      "id": "stress_profiles-00047",
+      "model": 3,
+      "key": [
+        "4",
+        "4",
+        "3",
+        "3"
+      ],
+      "historical_key": [
+        "4",
+        "4",
+        "3",
+        "3"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.006573095280854e-11
+    },
+    {
+      "id": "stress_profiles-00048",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 3.880706140267313e-12
+    },
+    {
+      "id": "stress_profiles-00048",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 2.2902873396679805e-11
+    },
+    {
+      "id": "stress_profiles-00048",
+      "model": 2,
+      "key": [
+        "89/100",
+        "39/50",
+        "89/100",
+        "89/100"
+      ],
+      "historical_key": [
+        "89/100",
+        "89/100",
+        "89/100",
+        "89/100"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 5.087158958386827e-07
+    },
+    {
+      "id": "stress_profiles-00048",
+      "model": 3,
+      "key": [
+        "6",
+        "3",
+        "4",
+        "4"
+      ],
+      "historical_key": [
+        "6",
+        "3",
+        "4",
+        "4"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 6.580124180201962e-07
+    },
+    {
+      "id": "stress_profiles-00049",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 2.3118942351364708e-11
+    },
+    {
+      "id": "stress_profiles-00049",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.520938020914825e-11
+    },
+    {
+      "id": "stress_profiles-00049",
+      "model": 2,
+      "key": [
+        "71/100",
+        "67/100",
+        "67/100",
+        "71/100"
+      ],
+      "historical_key": [
+        "71/100",
+        "24/25",
+        "67/100",
+        "1/25"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 1.2822496636575195e-06
+    },
+    {
+      "id": "stress_profiles-00049",
+      "model": 3,
+      "key": [
+        "4",
+        "3",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "4",
+        "3",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 7.290018178822224e-08
+    },
+    {
+      "id": "stress_profiles-00050",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 6.686090407389844e-13
+    },
+    {
+      "id": "stress_profiles-00050",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 4.841094244206034e-11
+    },
+    {
+      "id": "stress_profiles-00050",
+      "model": 2,
+      "key": [
+        "41/100",
+        "3/4",
+        "3/4",
+        "59/100"
+      ],
+      "historical_key": [
+        "1",
+        "3/4",
+        "3/4",
+        "59/100"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 2.4060261879817047e-07
+    },
+    {
+      "id": "stress_profiles-00050",
+      "model": 3,
+      "key": [
+        "3",
+        "1",
+        "1",
+        "2"
+      ],
+      "historical_key": [
+        "3",
+        "1",
+        "1",
+        "2"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.0189519663147324e-06
+    },
+    {
+      "id": "stress_profiles-00051",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 9.920148296669989e-11
+    },
+    {
+      "id": "stress_profiles-00051",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.4028367857620414e-10
+    },
+    {
+      "id": "stress_profiles-00051",
+      "model": 2,
+      "key": [
+        "4/5",
+        "4/5",
+        "17/25",
+        "17/25"
+      ],
+      "historical_key": [
+        "4/5",
+        "4/5",
+        "17/25",
+        "17/25"
+      ],
+      "relation": "same",
+      "new": true,
+      "refinement_epsilon_relative": 2.805471475040488e-06
+    },
+    {
+      "id": "stress_profiles-00051",
+      "model": 3,
+      "key": [
+        "6",
+        "1",
+        "1",
+        "3"
+      ],
+      "historical_key": [
+        "6",
+        "1",
+        "1",
+        "3"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 2.0384682501698136e-07
+    },
+    {
+      "id": "stress_profiles-00052",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 5.002561747506622e-12
+    },
+    {
+      "id": "stress_profiles-00052",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 3.543352691201907e-11
+    },
+    {
+      "id": "stress_profiles-00052",
+      "model": 2,
+      "key": [
+        "3/5",
+        "3/5",
+        "3/5",
+        "3/5"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 1.6994231538299945e-06
+    },
+    {
+      "id": "stress_profiles-00052",
+      "model": 3,
+      "key": [
+        "3",
+        "2",
+        "2",
+        "2"
+      ],
+      "historical_key": [
+        "3",
+        "2",
+        "2",
+        "2"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 3.2268088508448255e-07
+    },
+    {
+      "id": "stress_profiles-00053",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.4759331376118124e-10
+    },
+    {
+      "id": "stress_profiles-00053",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.4552316084383715e-10
+    },
+    {
+      "id": "stress_profiles-00053",
+      "model": 2,
+      "key": [
+        "99/100",
+        "99/100",
+        "99/100",
+        "99/100"
+      ],
+      "historical_key": [
+        "99/100",
+        "99/100",
+        "99/100",
+        "99/100"
+      ],
+      "relation": "same",
+      "new": true,
+      "refinement_epsilon_relative": 2.7845930766458215e-07
+    },
+    {
+      "id": "stress_profiles-00053",
+      "model": 3,
+      "key": [
+        "5",
+        "5",
+        "5",
+        "4"
+      ],
+      "historical_key": [
+        "5",
+        "5",
+        "5",
+        "4"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.0954620878379175e-06
+    },
+    {
+      "id": "stress_profiles-00054",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 8.523459731077677e-13
+    },
+    {
+      "id": "stress_profiles-00054",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.1347043143694015e-10
+    },
+    {
+      "id": "stress_profiles-00054",
+      "model": 2,
+      "key": [
+        "11/20",
+        "11/20",
+        "13/20",
+        "13/20"
+      ],
+      "historical_key": [
+        "4/5",
+        "4/5",
+        "13/20",
+        "13/20"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 6.226770761061615e-07
+    },
+    {
+      "id": "stress_profiles-00054",
+      "model": 3,
+      "key": [
+        "6",
+        "5",
+        "6",
+        "6"
+      ],
+      "historical_key": [
+        "6",
+        "5",
+        "6",
+        "6"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.690933061844873e-07
+    },
+    {
+      "id": "stress_profiles-00055",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 3.157842299559306e-11
+    },
+    {
+      "id": "stress_profiles-00055",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.548783505379894e-10
+    },
+    {
+      "id": "stress_profiles-00055",
+      "model": 2,
+      "key": [
+        "3/4",
+        "57/100",
+        "9/50",
+        "57/100"
+      ],
+      "historical_key": [
+        "1",
+        "41/50",
+        "43/100",
+        "41/50"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 6.729394895456301e-07
+    },
+    {
+      "id": "stress_profiles-00055",
+      "model": 3,
+      "key": [
+        "4",
+        "5",
+        "5",
+        "5"
+      ],
+      "historical_key": [
+        "4",
+        "5",
+        "5",
+        "5"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 8.741743271419144e-06
+    },
+    {
+      "id": "stress_profiles-00056",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.559729257415772e-11
+    },
+    {
+      "id": "stress_profiles-00056",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 9.410629542421751e-11
+    },
+    {
+      "id": "stress_profiles-00056",
+      "model": 2,
+      "key": [
+        "49/50",
+        "33/50",
+        "33/50",
+        "49/50"
+      ],
+      "historical_key": [
+        "1",
+        "33/50",
+        "33/50",
+        "49/50"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 2.5806870501970103e-07
+    },
+    {
+      "id": "stress_profiles-00056",
+      "model": 3,
+      "key": [
+        "5",
+        "3",
+        "5",
+        "3"
+      ],
+      "historical_key": [
+        "5",
+        "3",
+        "5",
+        "3"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 2.773437019658961e-06
+    },
+    {
+      "id": "stress_profiles-00057",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 8.00402321108769e-10
+    },
+    {
+      "id": "stress_profiles-00057",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 7.997795444276157e-10
+    },
+    {
+      "id": "stress_profiles-00057",
+      "model": 2,
+      "key": [
+        "83/100",
+        "83/100",
+        "3/5",
+        "83/100"
+      ],
+      "historical_key": [
+        "83/100",
+        "83/100",
+        "3/5",
+        "83/100"
+      ],
+      "relation": "same",
+      "new": true,
+      "refinement_epsilon_relative": 5.335718930207856e-07
+    },
+    {
+      "id": "stress_profiles-00057",
+      "model": 3,
+      "key": [
+        "7",
+        "5",
+        "3",
+        "5"
+      ],
+      "historical_key": [
+        "7",
+        "5",
+        "3",
+        "5"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 4.345712388757809e-08
+    },
+    {
+      "id": "stress_profiles-00058",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 2.6781776881096525e-10
+    },
+    {
+      "id": "stress_profiles-00058",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 2.742431257924124e-10
+    },
+    {
+      "id": "stress_profiles-00058",
+      "model": 2,
+      "key": [
+        "7/25",
+        "49/50",
+        "1/50",
+        "7/25"
+      ],
+      "historical_key": [
+        "1",
+        "18/25",
+        "37/50",
+        "37/50"
+      ],
+      "relation": "historical_higher",
+      "new": true,
+      "refinement_epsilon_relative": 1.1015904394292034e-06
+    },
+    {
+      "id": "stress_profiles-00058",
+      "model": 3,
+      "key": [
+        "6",
+        "0",
+        "0",
+        "4"
+      ],
+      "historical_key": [
+        "6",
+        "0",
+        "0",
+        "4"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.0556549119542675e-06
+    },
+    {
+      "id": "stress_profiles-00059",
+      "model": 0,
+      "key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "historical_key": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 5.420009825968469e-13
+    },
+    {
+      "id": "stress_profiles-00059",
+      "model": 1,
+      "key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 5.894262820396557e-11
+    },
+    {
+      "id": "stress_profiles-00059",
+      "model": 2,
+      "key": [
+        "49/50",
+        "22/25",
+        "49/50",
+        "3/25"
+      ],
+      "historical_key": [
+        "49/50",
+        "22/25",
+        "49/50",
+        "3/25"
+      ],
+      "relation": "same",
+      "new": true,
+      "refinement_epsilon_relative": 1.1874947031156628e-06
+    },
+    {
+      "id": "stress_profiles-00059",
+      "model": 3,
+      "key": [
+        "4",
+        "0",
+        "0",
+        "0"
+      ],
+      "historical_key": [
+        "4",
+        "0",
+        "0",
+        "0"
+      ],
+      "relation": "same",
+      "new": false,
+      "refinement_epsilon_relative": 1.3653434248677942e-06
+    }
+  ]
+}

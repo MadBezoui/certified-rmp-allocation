@@ -1,0 +1,46 @@
+{
+  "blocks": 24,
+  "code_sha256": {
+    "certrmp/baselines.py": "62438e5a0f16ee40900ab190b42a49eb08db138235df85d506ed8f6b4972ce85",
+    "certrmp/certify.py": "23ac9a2a9e3546442b7bfa34b9384eb5da8cdd49f64171cdb7e30fa1ff919edc",
+    "certrmp/dynamic.py": "9e04122f604e27f72b39841aa8c1621dec1662ee5dee5b940e24e3dc56690dc7",
+    "certrmp/generator.py": "e397a2e0d4b84c9366ac438ecf3a9300bd484f1412a996edc71e1254cdaabc21",
+    "certrmp/instance.py": "1567595f8689fbf9c60d2b543d8575ec2dd99e3c4daade6982eaacb26c630e4e",
+    "certrmp/model.py": "a403bc4d5d84c80ccfa1c95b9e130b137f7712bdec30f5d67355b072116b197a",
+    "certrmp/objectives.py": "bcfb14e57bf0130a5c3f0ac0cb1d2b58300de59908b5c84eb197024cb68f4c80",
+    "certrmp/oracle.py": "dbdfb8bace1b0f789937a4e3319a9ce41dc6f666f8fe32316e5541ce70003a8a",
+    "certrmp/pipeline.py": "89f4105175f982f4b3f9fbbc1c9d1619e9eb17437bcff3bba04417d0bc22cc9b",
+    "certrmp/profiles.py": "5974809ae5055824acc00f1833563b652694401a6ffadcfe6775662822a56bfe",
+    "certrmp/search.py": "35361dcdf683c23d2bdd45ec90527be3729b3d860b990381be000a818320d4cc",
+    "certrmp/verify.py": "ff2b4526090315ab233903aa8a8ce4568130dc1d132d74ce5f3c78a72ca27c6d",
+    "experiments/electricity.py": "17ad8be3335cc5a4bf51307845ed0c4dd864d1312c9ccaf70c54c07b0b8fda7e",
+    "experiments/manifest.py": "34d864f140b387f8c9d464c33e909816a09965042477e2c7f0a76ab2af2dc467",
+    "rmp/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "rmp/core.py": "f0bb1db0592b881e453f4c65b84fe894203a1be8fe4df5fa91fa1ffd29c7c864",
+    "scripts/replay_certificates.py": "5c3163d70af94a568fbc79990f2e79c4fd84ba74cd680cc5ee0cca3e575c044e",
+    "scripts/replay_electricity.py": "756b6694f9d5ae4da8da881c9a2f79de8887318d358a04011ce83f1eac524217"
+  },
+  "epochs_per_block": 336,
+  "input_sha256": {
+    "data_npz": "d2c1a7842820e3c97afb15c6fe18dbe6837c00259d9b86bfe36e95b1bec468d4",
+    "profiles_ramp0.5.json": "83c577c32543b3ebabe30f860e4cac77ab7c8de4d712b0c982cde90d283c40d4",
+    "profiles_ramp2.json": "dae7862116d6835d88a69aefdfb2edb5671db66a9037984030e32a0034079236",
+    "trajectories_ramp0.5.jsonl": "0e7a8c6da4eacaf445c9264ebf4420a4a79d9ccad8ee334f2f2d6a7124052e12",
+    "trajectories_ramp2.jsonl": "8fc9d0fc70234ea916a8f083f21a89ee1cf62dd39fe51d116863f27f70edd5dd"
+  },
+  "methods": [
+    "rmp_cold",
+    "rmp_reuse",
+    "rmp_warm"
+  ],
+  "numpy": "2.5.4",
+  "platform": "macOS-27.2-arm64-arm-64bit-Mach-O",
+  "processed_demand_sha256": "f5492f007e61cfd402b7b83fe29aaa59c1349ed7e98d6c0f0df079fa678f151c",
+  "python": "3.13.15 (main, Sep  1 2026, 14:05:45) [Clang 22.1.3 ]",
+  "ramps": [
+    "0.5",
+    "2"
+  ],
+  "schema": 1,
+  "workers": 3
+}

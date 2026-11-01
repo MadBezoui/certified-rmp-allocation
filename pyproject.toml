@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "certrmp"
+version = "1.2.0"
+description = "Certified optimization of multiple-reference-profile preferences over priority-optimal allocations"
+requires-python = ">=3.12"
+dependencies = ["numpy>=2.0", "scipy>=1.13", "pandas>=2.2", "matplotlib>=3.9", "cvxpy>=1.6", "clarabel>=0.9",
+                "highspy>=1.7", "PySCIPOpt>=5.0", "pymoo>=0.6.1", "requests>=2.31"]
+
+[project.optional-dependencies]
+gurobi = ["gurobipy>=12"]
+test = ["pytest>=8"]
+
+[tool.setuptools]
+packages = ["certrmp", "rmp"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
