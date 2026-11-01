@@ -4,9 +4,13 @@
       "bytes": 215,
       "sha256": "ce7193bac23af237dfb302b28dc75148281ec3bc1067432de184617e3836b09b"
     },
+    ".zenodo.json": {
+      "bytes": 1228,
+      "sha256": "492c982ff52efd8e5c5e5943635d7fa2286d0e3f9ccf77eda8c274bc90748ca4"
+    },
     "CITATION.cff": {
-      "bytes": 977,
-      "sha256": "95823d83c1eb5e3c03560ab1a7f5f548e5c50cf2a15911711c85df9a7dd8bfd8"
+      "bytes": 1056,
+      "sha256": "0cfb86520ec40f3b047f5191d954778dd99a896b7cb403b2e2e5f84b5a558c01"
     },
     "DATA_SOURCES.md": {
       "bytes": 1113,

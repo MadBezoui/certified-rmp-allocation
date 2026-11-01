@@ -1,0 +1,28 @@
+{
+  "title": "Certified multiobjective allocation with multiple reference profiles: reproducibility package",
+  "upload_type": "software",
+  "version": "1.2.0",
+  "access_right": "open",
+  "description": "Experimental code, instance manifests, numerical results and independently checkable certificates for multiple-reference-profile resource allocation with strict service priorities. The package includes the historical code and results, corrected verification, a reanalysis of 55 boundary cases, and a demand-trace study. The software is licensed under MIT; original results and documentation are licensed under CC BY 4.0. The UCI electricity dataset retains its own license and is downloaded separately; it is not redistributed in this package.",
+  "creators": [
+    {
+      "name": "Bezoui, Madani",
+      "affiliation": "CESI LINEACT (UR 7527), Campus de Nancy, France"
+    }
+  ],
+  "license": "mit",
+  "keywords": [
+    "resource allocation",
+    "multiple criteria decision aiding",
+    "reference profiles",
+    "convex optimization",
+    "optimality certificates"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.24432/C58C86",
+      "relation": "references",
+      "resource_type": "dataset"
+    }
+  ]
+}

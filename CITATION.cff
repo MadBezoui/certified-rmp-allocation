@@ -8,10 +8,8 @@ authors:
   - family-names: Bezoui
     given-names: Madani
     affiliation: "CESI LINEACT (UR 7527), Campus de Nancy, France"
-license:
-  - MIT
-  - CC-BY-4.0
-abstract: "Code, instance manifests and results for the exact optimization of a multiple-reference-profile (RMP) preference model over priority-optimal resource allocations: lexicographic coalition search, Pareto refinement, optimality certificates with an independent exact-arithmetic verifier, generic mixed-integer, epsilon-constraint and evolutionary comparators, and a demand-trace study of repeated decisions."
+license: MIT
+abstract: "Code, instance manifests and results for the exact optimization of a multiple-reference-profile (RMP) preference model over priority-optimal resource allocations: lexicographic coalition search, Pareto refinement, optimality certificates with an independent exact-arithmetic verifier, generic mixed-integer, epsilon-constraint and evolutionary comparators, and a demand-trace study of repeated decisions. Software is licensed under MIT; original results and documentation are licensed under CC BY 4.0."
 keywords:
   - resource allocation
   - multiple criteria decision aiding
